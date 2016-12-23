@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="Header Files">
+			<UniqueIdentifier>{7b42d31d-d53c-4868-8b92-ca2bc9fc052f}</UniqueIdentifier>
+			<Extensions>h;hpp;hxx;hm;inl</Extensions>
+		</Filter>
+		<Filter Include="Header Files\Collidable_Objects">
+			<UniqueIdentifier>{325FEC98-59FA-908E-EFA6-7C8BBBBD4452}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Constitutive_Models">
+			<UniqueIdentifier>{E83475C1-CF78-94DA-5403-79D5DE68DC28}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Driver">
+			<UniqueIdentifier>{743AED51-9329-0392-48B0-A6731E7EC427}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\FEM">
+			<UniqueIdentifier>{034AC4AF-635D-4E8B-9E53-2921466BE78A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\MPM">
+			<UniqueIdentifier>{BA113D09-89EA-D5D8-32C6-04FA168141B1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\MPM\CPDI_Update_Methods">
+			<UniqueIdentifier>{14FDFDB9-D5BB-1F85-54C1-36D5B3FD1605}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\MPM\MPM_Contact_Methods">
+			<UniqueIdentifier>{AD74FFA5-7D06-5DA6-E971-EFA39D0970F3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\MPM\MPM_Plugins">
+			<UniqueIdentifier>{86AA6C6A-98CB-73CA-9228-323EE1CEBBFB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\MPM\MPM_Step_Methods">
+			<UniqueIdentifier>{580FFD9D-5410-8935-D111-237B64490211}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\MPM\Weight_Function_Influence_Iterators">
+			<UniqueIdentifier>{88CF69D7-B4F1-0685-CB29-5701EACBEA3A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Particles">
+			<UniqueIdentifier>{1474952A-0723-AB67-AD10-B2770D5A79B8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Rigid_Body">
+			<UniqueIdentifier>{FEE880D3-4B7A-E701-9EF8-8AD98056F9B2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Utilities">
+			<UniqueIdentifier>{AEE6C19D-6E32-16D3-44C9-5BB161571371}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Utilities\Deformation_Diagonalization">
+			<UniqueIdentifier>{17D6C315-7C5C-A1D9-70ED-0482AC325713}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files">
+			<UniqueIdentifier>{7b42d31d-d53c-4868-8b92-ca2bc9fc052f}</UniqueIdentifier>
+			<Extensions>cpp;c;cxx;l;y;def;odl;idl;hpj;bat</Extensions>
+		</Filter>
+		<Filter Include="Source Files\Collidable_Objects">
+			<UniqueIdentifier>{FD2A40DE-2E84-FFC9-B584-C32778728CCF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Constitutive_Models">
+			<UniqueIdentifier>{535F89D1-A7BE-FAEF-7586-52C3F21D2337}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Driver">
+			<UniqueIdentifier>{C350D82C-1AAE-B354-A0F6-69273E96556F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\FEM">
+			<UniqueIdentifier>{4E2D3270-8A14-4DA5-AB3D-9065A953F2BD}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\MPM">
+			<UniqueIdentifier>{79FE5BFA-08BD-557A-D130-1B386836064B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\MPM\CPDI_Update_Methods">
+			<UniqueIdentifier>{3D6B0737-E9F0-D891-270C-85740E598B2A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\MPM\MPM_Contact_Methods">
+			<UniqueIdentifier>{D1CC08B2-0F3C-0929-6251-4C2AFA7876F3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\MPM\MPM_Plugins">
+			<UniqueIdentifier>{C2A5D14B-DF69-4F04-DC3D-EEF988961ED9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\MPM\MPM_Step_Methods">
+			<UniqueIdentifier>{4BFC9EF2-DBED-1B89-5B27-5C33F502C43C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\MPM\Weight_Function_Influence_Iterators">
+			<UniqueIdentifier>{13B5033C-400C-F623-6B1A-458F60E05D6B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Particles">
+			<UniqueIdentifier>{83C8BEB2-00DD-0005-C82C-216C1B6E4141}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Rigid_Body">
+			<UniqueIdentifier>{2FB4DD0E-6787-5DC1-0EAC-EDCA30842CD7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Utilities">
+			<UniqueIdentifier>{2114AC77-8645-1100-BFAC-B4B857601A28}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Utilities\Deformation_Diagonalization">
+			<UniqueIdentifier>{05A0BC19-50CA-BD72-B4F5-C757E2C61A1E}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Collidable_Objects\collidable_object.h">
+			<Filter>Header Files\Collidable_Objects</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Collidable_Objects\collidable_object_manager.h">
+			<Filter>Header Files\Collidable_Objects</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Collidable_Objects\collision_detection_method.h">
+			<Filter>Header Files\Collidable_Objects</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Collidable_Objects\collision_detection_method_CCD.h">
+			<Filter>Header Files\Collidable_Objects</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Collidable_Objects\collision_detection_method_DTBVH.h">
+			<Filter>Header Files\Collidable_Objects</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Collidable_Objects\collision_pair.h">
+			<Filter>Header Files\Collidable_Objects</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Collidable_Objects\collision_pair_ccd.h">
+			<Filter>Header Files\Collidable_Objects</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Collidable_Objects\collision_pair_manager.h">
+			<Filter>Header Files\Collidable_Objects</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Collidable_Objects\contact_point.h">
+			<Filter>Header Files\Collidable_Objects</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Collidable_Objects\contact_point_manager.h">
+			<Filter>Header Files\Collidable_Objects</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Collidable_Objects\implicit_collidable_object.h">
+			<Filter>Header Files\Collidable_Objects</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Collidable_Objects\mesh_based_collidable_object.h">
+			<Filter>Header Files\Collidable_Objects</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Collidable_Objects\polygon_based_collidable_object.h">
+			<Filter>Header Files\Collidable_Objects</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Constitutive_Models\constitutive_model.h">
+			<Filter>Header Files\Constitutive_Models</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Constitutive_Models\isotropic_hyperelastic_material.h">
+			<Filter>Header Files\Constitutive_Models</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Constitutive_Models\isotropic_linear_elasticity.h">
+			<Filter>Header Files\Constitutive_Models</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Constitutive_Models\neo_hookean.h">
+			<Filter>Header Files\Constitutive_Models</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Constitutive_Models\st_venant_kirchhoff.h">
+			<Filter>Header Files\Constitutive_Models</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Driver\driver_base.h">
+			<Filter>Header Files\Driver</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Driver\driver_plugin_base.h">
+			<Filter>Header Files\Driver</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\FEM\fem_base.h">
+			<Filter>Header Files\FEM</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\FEM\fem_fluid.h">
+			<Filter>Header Files\FEM</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\FEM\fem_solid.h">
+			<Filter>Header Files\FEM</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\CPDI_Update_Methods\CPDI2_update_method.h">
+			<Filter>Header Files\MPM\CPDI_Update_Methods</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\CPDI_Update_Methods\CPDI_update_method.h">
+			<Filter>Header Files\MPM\CPDI_Update_Methods</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\MPM_Contact_Methods\mpm_contact_method.h">
+			<Filter>Header Files\MPM\MPM_Contact_Methods</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\MPM_Contact_Methods\mpm_solid_contact_method.h">
+			<Filter>Header Files\MPM\MPM_Contact_Methods</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\MPM_Contact_Methods\mpm_solid_subgrid_friction_contact_method.h">
+			<Filter>Header Files\MPM\MPM_Contact_Methods</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\MPM_Plugins\mpm_plugin_base.h">
+			<Filter>Header Files\MPM\MPM_Plugins</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\MPM_Plugins\mpm_solid_plugin_base.h">
+			<Filter>Header Files\MPM\MPM_Plugins</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\MPM_Plugins\mpm_solid_plugin_print.h">
+			<Filter>Header Files\MPM\MPM_Plugins</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\MPM_Plugins\mpm_solid_plugin_render.h">
+			<Filter>Header Files\MPM\MPM_Plugins</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\MPM_Step_Methods\mpm_solid_step_method_MUSL.h">
+			<Filter>Header Files\MPM\MPM_Step_Methods</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\MPM_Step_Methods\mpm_solid_step_method_USF.h">
+			<Filter>Header Files\MPM\MPM_Step_Methods</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\MPM_Step_Methods\mpm_solid_step_method_USL.h">
+			<Filter>Header Files\MPM\MPM_Step_Methods</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\MPM_Step_Methods\mpm_step_method.h">
+			<Filter>Header Files\MPM\MPM_Step_Methods</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\Weight_Function_Influence_Iterators\adaptive_grid_weight_function_influence_iterator.h">
+			<Filter>Header Files\MPM\Weight_Function_Influence_Iterators</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\Weight_Function_Influence_Iterators\uniform_grid_weight_function_influence_iterator.h">
+			<Filter>Header Files\MPM\Weight_Function_Influence_Iterators</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\CPDI_mpm_solid.h">
+			<Filter>Header Files\MPM</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\invertible_mpm_solid.h">
+			<Filter>Header Files\MPM</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\mpm_base.h">
+			<Filter>Header Files\MPM</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\mpm_internal.h">
+			<Filter>Header Files\MPM</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\mpm_solid.h">
+			<Filter>Header Files\MPM</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\MPM\mpm_solid_base.h">
+			<Filter>Header Files\MPM</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Particles\particle.h">
+			<Filter>Header Files\Particles</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Particles\solid_particle.h">
+			<Filter>Header Files\Particles</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Rigid_Body\compressed_matrix.h">
+			<Filter>Header Files\Rigid_Body</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Rigid_Body\inertia_tensor.h">
+			<Filter>Header Files\Rigid_Body</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_body.h">
+			<Filter>Header Files\Rigid_Body</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_body_2d.h">
+			<Filter>Header Files\Rigid_Body</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_body_3d.h">
+			<Filter>Header Files\Rigid_Body</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_body_driver.h">
+			<Filter>Header Files\Rigid_Body</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_body_driver_utility.h">
+			<Filter>Header Files\Rigid_Body</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_driver_plugin.h">
+			<Filter>Header Files\Rigid_Body</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_driver_plugin_motion.h">
+			<Filter>Header Files\Rigid_Body</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_driver_plugin_POV.h">
+			<Filter>Header Files\Rigid_Body</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_driver_plugin_print.h">
+			<Filter>Header Files\Rigid_Body</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_driver_plugin_render.h">
+			<Filter>Header Files\Rigid_Body</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_response_method.h">
+			<Filter>Header Files\Rigid_Body</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_response_method_BLCP.h">
+			<Filter>Header Files\Rigid_Body</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_response_method_QCE.h">
+			<Filter>Header Files\Rigid_Body</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Rigid_Body\rotation_dof.h">
+			<Filter>Header Files\Rigid_Body</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Dynamics\Utilities\Deformation_Diagonalization\deformation_diagonalization.h">
+			<Filter>Header Files\Utilities\Deformation_Diagonalization</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Collidable_Objects\collidable_object.cpp">
+			<Filter>Source Files\Collidable_Objects</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Collidable_Objects\collision_detection_method.cpp">
+			<Filter>Source Files\Collidable_Objects</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Collidable_Objects\collision_detection_method_CCD.cpp">
+			<Filter>Source Files\Collidable_Objects</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Collidable_Objects\collision_detection_method_DTBVH.cpp">
+			<Filter>Source Files\Collidable_Objects</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Collidable_Objects\collision_pair.cpp">
+			<Filter>Source Files\Collidable_Objects</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Collidable_Objects\collision_pair_ccd.cpp">
+			<Filter>Source Files\Collidable_Objects</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Collidable_Objects\collision_pair_manager.cpp">
+			<Filter>Source Files\Collidable_Objects</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Collidable_Objects\contact_point.cpp">
+			<Filter>Source Files\Collidable_Objects</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Collidable_Objects\contact_point_manager.cpp">
+			<Filter>Source Files\Collidable_Objects</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Collidable_Objects\mesh_based_collidable_object.cpp">
+			<Filter>Source Files\Collidable_Objects</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Collidable_Objects\polygon_based_collidable_object.cpp">
+			<Filter>Source Files\Collidable_Objects</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Constitutive_Models\isotropic_hyperelastic_material.cpp">
+			<Filter>Source Files\Constitutive_Models</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Constitutive_Models\isotropic_linear_elasticity.cpp">
+			<Filter>Source Files\Constitutive_Models</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Constitutive_Models\neo_hookean.cpp">
+			<Filter>Source Files\Constitutive_Models</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Constitutive_Models\st_venant_kirchhoff.cpp">
+			<Filter>Source Files\Constitutive_Models</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Driver\driver_base.cpp">
+			<Filter>Source Files\Driver</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Driver\driver_plugin_base.cpp">
+			<Filter>Source Files\Driver</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\FEM\fem_base.cpp">
+			<Filter>Source Files\FEM</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\FEM\fem_fluid.cpp">
+			<Filter>Source Files\FEM</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\FEM\fem_solid.cpp">
+			<Filter>Source Files\FEM</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\MPM\CPDI_Update_Methods\CPDI2_update_method.cpp">
+			<Filter>Source Files\MPM\CPDI_Update_Methods</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\MPM\CPDI_Update_Methods\CPDI_update_method.cpp">
+			<Filter>Source Files\MPM\CPDI_Update_Methods</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\MPM\MPM_Contact_Methods\mpm_contact_method.cpp">
+			<Filter>Source Files\MPM\MPM_Contact_Methods</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\MPM\MPM_Contact_Methods\mpm_solid_contact_method.cpp">
+			<Filter>Source Files\MPM\MPM_Contact_Methods</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\MPM\MPM_Contact_Methods\mpm_solid_subgrid_friction_contact_method.cpp">
+			<Filter>Source Files\MPM\MPM_Contact_Methods</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\MPM\MPM_Plugins\mpm_plugin_base.cpp">
+			<Filter>Source Files\MPM\MPM_Plugins</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\MPM\MPM_Plugins\mpm_solid_plugin_base.cpp">
+			<Filter>Source Files\MPM\MPM_Plugins</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\MPM\MPM_Plugins\mpm_solid_plugin_print.cpp">
+			<Filter>Source Files\MPM\MPM_Plugins</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\MPM\MPM_Plugins\mpm_solid_plugin_render.cpp">
+			<Filter>Source Files\MPM\MPM_Plugins</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\MPM\MPM_Step_Methods\mpm_solid_step_method_MUSL.cpp">
+			<Filter>Source Files\MPM\MPM_Step_Methods</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\MPM\MPM_Step_Methods\mpm_solid_step_method_USF.cpp">
+			<Filter>Source Files\MPM\MPM_Step_Methods</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\MPM\MPM_Step_Methods\mpm_solid_step_method_USL.cpp">
+			<Filter>Source Files\MPM\MPM_Step_Methods</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\MPM\MPM_Step_Methods\mpm_step_method.cpp">
+			<Filter>Source Files\MPM\MPM_Step_Methods</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\MPM\Weight_Function_Influence_Iterators\uniform_grid_weight_function_influence_iterator.cpp">
+			<Filter>Source Files\MPM\Weight_Function_Influence_Iterators</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\MPM\CPDI_mpm_solid.cpp">
+			<Filter>Source Files\MPM</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\MPM\invertible_mpm_solid.cpp">
+			<Filter>Source Files\MPM</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\MPM\mpm_base.cpp">
+			<Filter>Source Files\MPM</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\MPM\mpm_solid.cpp">
+			<Filter>Source Files\MPM</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\MPM\mpm_solid_base.cpp">
+			<Filter>Source Files\MPM</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Particles\particle.cpp">
+			<Filter>Source Files\Particles</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Particles\solid_particle.cpp">
+			<Filter>Source Files\Particles</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Rigid_Body\compressed_matrix.cpp">
+			<Filter>Source Files\Rigid_Body</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Rigid_Body\inertia_tensor.cpp">
+			<Filter>Source Files\Rigid_Body</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_body_2d.cpp">
+			<Filter>Source Files\Rigid_Body</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_body_3d.cpp">
+			<Filter>Source Files\Rigid_Body</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_body_driver.cpp">
+			<Filter>Source Files\Rigid_Body</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_body_driver_utility.cpp">
+			<Filter>Source Files\Rigid_Body</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_driver_plugin.cpp">
+			<Filter>Source Files\Rigid_Body</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_driver_plugin_motion.cpp">
+			<Filter>Source Files\Rigid_Body</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_driver_plugin_POV.cpp">
+			<Filter>Source Files\Rigid_Body</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_driver_plugin_print.cpp">
+			<Filter>Source Files\Rigid_Body</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_driver_plugin_render.cpp">
+			<Filter>Source Files\Rigid_Body</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_response_method.cpp">
+			<Filter>Source Files\Rigid_Body</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_response_method_BLCP.cpp">
+			<Filter>Source Files\Rigid_Body</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Rigid_Body\rigid_response_method_QCE.cpp">
+			<Filter>Source Files\Rigid_Body</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Rigid_Body\rotation_dof.cpp">
+			<Filter>Source Files\Rigid_Body</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Dynamics\Utilities\Deformation_Diagonalization\deformation_diagonalization.cpp">
+			<Filter>Source Files\Utilities\Deformation_Diagonalization</Filter>
+		</ClCompile>
+	</ItemGroup>
+</Project>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="Header Files">
+			<UniqueIdentifier>{7b42d31d-d53c-4868-8b92-ca2bc9fc052f}</UniqueIdentifier>
+			<Extensions>h;hpp;hxx;hm;inl</Extensions>
+		</Filter>
+		<Filter Include="Header Files\Image_IO">
+			<UniqueIdentifier>{4545AA8C-30ED-D370-590A-221FC82BE6CD}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Surface_Mesh_IO">
+			<UniqueIdentifier>{A471F3BB-3268-217C-31F7-9E6EB557BF15}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Volumetric_Mesh_IO">
+			<UniqueIdentifier>{4C3B1C47-598E-3E1A-1C81-2857562A68F5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files">
+			<UniqueIdentifier>{7b42d31d-d53c-4868-8b92-ca2bc9fc052f}</UniqueIdentifier>
+			<Extensions>cpp;c;cxx;l;y;def;odl;idl;hpj;bat</Extensions>
+		</Filter>
+		<Filter Include="Source Files\Image_IO">
+			<UniqueIdentifier>{DCDF23F3-4860-6681-C107-5085C3D33056}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Surface_Mesh_IO">
+			<UniqueIdentifier>{5E7860E3-D1A3-B196-A7A8-241DB0C2ABBA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Volumetric_Mesh_IO">
+			<UniqueIdentifier>{B302B364-ADC5-6BCE-937D-4DF9EE994A97}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="Physika_Src\Physika_IO\Image_IO\image_io.h">
+			<Filter>Header Files\Image_IO</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_IO\Image_IO\png_io.h">
+			<Filter>Header Files\Image_IO</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_IO\Image_IO\ppm_io.h">
+			<Filter>Header Files\Image_IO</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_IO\Surface_Mesh_IO\obj_mesh_io.h">
+			<Filter>Header Files\Surface_Mesh_IO</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_IO\Surface_Mesh_IO\pov_mesh_io.h">
+			<Filter>Header Files\Surface_Mesh_IO</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_IO\Surface_Mesh_IO\stl_mesh_io.h">
+			<Filter>Header Files\Surface_Mesh_IO</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_IO\Surface_Mesh_IO\surface_mesh_io.h">
+			<Filter>Header Files\Surface_Mesh_IO</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_IO\Volumetric_Mesh_IO\volumetric_mesh_io.h">
+			<Filter>Header Files\Volumetric_Mesh_IO</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="Physika_Src\Physika_IO\Image_IO\image_io.cpp">
+			<Filter>Source Files\Image_IO</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_IO\Image_IO\png_io.cpp">
+			<Filter>Source Files\Image_IO</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_IO\Image_IO\ppm_io.cpp">
+			<Filter>Source Files\Image_IO</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_IO\Surface_Mesh_IO\obj_mesh_io.cpp">
+			<Filter>Source Files\Surface_Mesh_IO</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_IO\Surface_Mesh_IO\pov_mesh_io.cpp">
+			<Filter>Source Files\Surface_Mesh_IO</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_IO\Surface_Mesh_IO\stl_mesh_io.cpp">
+			<Filter>Source Files\Surface_Mesh_IO</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_IO\Surface_Mesh_IO\surface_mesh_io.cpp">
+			<Filter>Source Files\Surface_Mesh_IO</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_IO\Volumetric_Mesh_IO\volumetric_mesh_io.cpp">
+			<Filter>Source Files\Volumetric_Mesh_IO</Filter>
+		</ClCompile>
+	</ItemGroup>
+</Project>

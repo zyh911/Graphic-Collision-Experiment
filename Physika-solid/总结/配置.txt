@@ -1,0 +1,8 @@
+0¡¢Windows 8.1
+1¡¢python 2.7.11 32Î»
+2¡¢scons 2.4.1
+3¡¢Visual Studio 2010
+4¡¢openGLÖ§³Ö
+
+
+

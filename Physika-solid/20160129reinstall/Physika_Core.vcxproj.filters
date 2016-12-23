@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="Header Files">
+			<UniqueIdentifier>{7b42d31d-d53c-4868-8b92-ca2bc9fc052f}</UniqueIdentifier>
+			<Extensions>h;hpp;hxx;hm;inl</Extensions>
+		</Filter>
+		<Filter Include="Header Files\Arrays">
+			<UniqueIdentifier>{0A48CE6B-A69C-5FE4-D08D-04FFF018CDE7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Config_File">
+			<UniqueIdentifier>{490B8CE8-98FB-03A7-0524-3EFBB667D744}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Data_Structures">
+			<UniqueIdentifier>{530B68BF-DAA1-C4E0-74EF-FEF6BD610F80}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Grid_Weight_Functions">
+			<UniqueIdentifier>{4FB2701B-40E2-C028-D940-74241DFED868}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Image">
+			<UniqueIdentifier>{F5593C57-1A28-7A85-E851-21585DD21E0E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Matrices">
+			<UniqueIdentifier>{4CE4CAAE-460F-34EC-1F89-8E83D3B717D0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Quaternion">
+			<UniqueIdentifier>{7AE79443-B787-B380-0BD5-A7DE70432C73}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Range">
+			<UniqueIdentifier>{64C4ED17-99C6-D9C0-172A-7DB99EA5FA60}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Timer">
+			<UniqueIdentifier>{A283EB9B-7494-AF5F-1006-E4D72D071FCE}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Transform">
+			<UniqueIdentifier>{080AA98E-D014-0D77-AC5E-DC06E09EA4EE}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Utilities">
+			<UniqueIdentifier>{0EC8E488-81E8-4130-F20C-73A9DC1BEAD5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Utilities\File_Utilities">
+			<UniqueIdentifier>{448117B1-672C-B991-4186-9C996740B885}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Vectors">
+			<UniqueIdentifier>{1E112418-1AC0-C9D8-446E-AC658E59EDF1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Weight_Functions">
+			<UniqueIdentifier>{9754F380-DD48-8CAC-01F7-CC85D678BD22}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files">
+			<UniqueIdentifier>{7b42d31d-d53c-4868-8b92-ca2bc9fc052f}</UniqueIdentifier>
+			<Extensions>cpp;c;cxx;l;y;def;odl;idl;hpj;bat</Extensions>
+		</Filter>
+		<Filter Include="Source Files\Arrays">
+			<UniqueIdentifier>{8CD65809-4114-FF23-D28D-60947B26C0E9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Config_File">
+			<UniqueIdentifier>{D5850858-21D0-1093-8D78-AE8B6F390085}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Grid_Weight_Functions">
+			<UniqueIdentifier>{48E19D44-0CEA-1839-89F8-E3A73CC66406}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Image">
+			<UniqueIdentifier>{67B29651-F4B3-AE2A-4EE3-7C63706DDB6E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Matrices">
+			<UniqueIdentifier>{DAED7226-D14C-D169-F097-08A75DA88E3F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Quaternion">
+			<UniqueIdentifier>{8EDB9776-E0E8-0C25-199E-1D6613348180}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Range">
+			<UniqueIdentifier>{D4DDEC9C-477D-D427-88F5-3B3810446946}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Timer">
+			<UniqueIdentifier>{5F640106-19A9-B4CD-16D7-FA408AE55DB9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Transform">
+			<UniqueIdentifier>{B8B459B6-535C-4FF3-0613-9D1EE5325156}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Utilities">
+			<UniqueIdentifier>{920338B6-B7CD-339D-1977-C5D05D334467}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Utilities\File_Utilities">
+			<UniqueIdentifier>{93062214-ABCF-73BF-EA69-4FAB38BC58F9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Vectors">
+			<UniqueIdentifier>{AA33F074-0B02-843D-50EF-C1B086BBCCEB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Weight_Functions">
+			<UniqueIdentifier>{738AA959-1CCE-013C-785B-BCEF49664672}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array-inl.h">
+			<Filter>Header Files\Arrays</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array.h">
+			<Filter>Header Files\Arrays</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_const_iterator-inl.h">
+			<Filter>Header Files\Arrays</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_const_iterator.h">
+			<Filter>Header Files\Arrays</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_iterator-inl.h">
+			<Filter>Header Files\Arrays</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_iterator.h">
+			<Filter>Header Files\Arrays</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_manager.h">
+			<Filter>Header Files\Arrays</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_Nd-inl.h">
+			<Filter>Header Files\Arrays</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_Nd.h">
+			<Filter>Header Files\Arrays</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_Nd_const_iterator-inl.h">
+			<Filter>Header Files\Arrays</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_Nd_const_iterator.h">
+			<Filter>Header Files\Arrays</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_Nd_iterator-inl.h">
+			<Filter>Header Files\Arrays</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_Nd_iterator.h">
+			<Filter>Header Files\Arrays</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Config_File\config_file.h">
+			<Filter>Header Files\Config_File</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Data_Structures\heap-inl.h">
+			<Filter>Header Files\Data_Structures</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Data_Structures\heap.h">
+			<Filter>Header Files\Data_Structures</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Grid_Weight_Functions\grid_cubic_weight_functions.h">
+			<Filter>Header Files\Grid_Weight_Functions</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Grid_Weight_Functions\grid_linear_weight_functions.h">
+			<Filter>Header Files\Grid_Weight_Functions</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Grid_Weight_Functions\grid_quadratic_weight_functions.h">
+			<Filter>Header Files\Grid_Weight_Functions</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Grid_Weight_Functions\grid_weight_function.h">
+			<Filter>Header Files\Grid_Weight_Functions</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Grid_Weight_Functions\grid_weight_function_creator.h">
+			<Filter>Header Files\Grid_Weight_Functions</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Image\image.h">
+			<Filter>Header Files\Image</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Matrices\matrix_1x1.h">
+			<Filter>Header Files\Matrices</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Matrices\matrix_2x2.h">
+			<Filter>Header Files\Matrices</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Matrices\matrix_3x3.h">
+			<Filter>Header Files\Matrices</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Matrices\matrix_4x4.h">
+			<Filter>Header Files\Matrices</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Matrices\matrix_base.h">
+			<Filter>Header Files\Matrices</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Matrices\matrix_MxN.h">
+			<Filter>Header Files\Matrices</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Matrices\sparse_matrix.h">
+			<Filter>Header Files\Matrices</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Matrices\sparse_matrix_iterator.h">
+			<Filter>Header Files\Matrices</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Matrices\square_matrix.h">
+			<Filter>Header Files\Matrices</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Quaternion\quaternion.h">
+			<Filter>Header Files\Quaternion</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Range\interval.h">
+			<Filter>Header Files\Range</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Range\range.h">
+			<Filter>Header Files\Range</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Timer\timer.h">
+			<Filter>Header Files\Timer</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Transform\transform.h">
+			<Filter>Header Files\Transform</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Transform\transform_2d.h">
+			<Filter>Header Files\Transform</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Transform\transform_3d.h">
+			<Filter>Header Files\Transform</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Utilities\File_Utilities\file_path_utilities.h">
+			<Filter>Header Files\Utilities\File_Utilities</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Utilities\File_Utilities\parse_line.h">
+			<Filter>Header Files\Utilities\File_Utilities</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Utilities\cxx11_support.h">
+			<Filter>Header Files\Utilities</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Utilities\dimension_trait.h">
+			<Filter>Header Files\Utilities</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Utilities\global_config.h">
+			<Filter>Header Files\Utilities</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Utilities\math_utilities.h">
+			<Filter>Header Files\Utilities</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Utilities\physika_assert.h">
+			<Filter>Header Files\Utilities</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Utilities\type_utilities.h">
+			<Filter>Header Files\Utilities</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Vectors\vector.h">
+			<Filter>Header Files\Vectors</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Vectors\vector_1d.h">
+			<Filter>Header Files\Vectors</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Vectors\vector_2d.h">
+			<Filter>Header Files\Vectors</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Vectors\vector_3d.h">
+			<Filter>Header Files\Vectors</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Vectors\vector_4d.h">
+			<Filter>Header Files\Vectors</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Vectors\vector_base.h">
+			<Filter>Header Files\Vectors</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Vectors\vector_Nd.h">
+			<Filter>Header Files\Vectors</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Weight_Functions\cubic_weight_functions.h">
+			<Filter>Header Files\Weight_Functions</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Weight_Functions\hexic_weight_functions.h">
+			<Filter>Header Files\Weight_Functions</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Weight_Functions\linear_weight_functions.h">
+			<Filter>Header Files\Weight_Functions</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Weight_Functions\quadratic_weight_functions.h">
+			<Filter>Header Files\Weight_Functions</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Weight_Functions\quartic_weight_functions.h">
+			<Filter>Header Files\Weight_Functions</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Weight_Functions\weight_function.h">
+			<Filter>Header Files\Weight_Functions</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Core\Weight_Functions\weight_function_creator.h">
+			<Filter>Header Files\Weight_Functions</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="Physika_Src\Physika_Core\Arrays\array_manager.cpp">
+			<Filter>Source Files\Arrays</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Config_File\config_file.cpp">
+			<Filter>Source Files\Config_File</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Grid_Weight_Functions\grid_cubic_weight_functions.cpp">
+			<Filter>Source Files\Grid_Weight_Functions</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Grid_Weight_Functions\grid_linear_weight_functions.cpp">
+			<Filter>Source Files\Grid_Weight_Functions</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Grid_Weight_Functions\grid_quadratic_weight_functions.cpp">
+			<Filter>Source Files\Grid_Weight_Functions</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Image\image.cpp">
+			<Filter>Source Files\Image</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Matrices\matrix_1x1.cpp">
+			<Filter>Source Files\Matrices</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Matrices\matrix_2x2.cpp">
+			<Filter>Source Files\Matrices</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Matrices\matrix_3x3.cpp">
+			<Filter>Source Files\Matrices</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Matrices\matrix_4x4.cpp">
+			<Filter>Source Files\Matrices</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Matrices\matrix_MxN.cpp">
+			<Filter>Source Files\Matrices</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Matrices\sparse_matrix.cpp">
+			<Filter>Source Files\Matrices</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Matrices\sparse_matrix_iterator.cpp">
+			<Filter>Source Files\Matrices</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Quaternion\quaternion.cpp">
+			<Filter>Source Files\Quaternion</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Range\interval.cpp">
+			<Filter>Source Files\Range</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Range\range.cpp">
+			<Filter>Source Files\Range</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Timer\timer.cpp">
+			<Filter>Source Files\Timer</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Transform\transform_2d.cpp">
+			<Filter>Source Files\Transform</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Transform\transform_3d.cpp">
+			<Filter>Source Files\Transform</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Utilities\File_Utilities\file_path_utilities.cpp">
+			<Filter>Source Files\Utilities\File_Utilities</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Utilities\File_Utilities\parse_line.cpp">
+			<Filter>Source Files\Utilities\File_Utilities</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Vectors\vector_1d.cpp">
+			<Filter>Source Files\Vectors</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Vectors\vector_2d.cpp">
+			<Filter>Source Files\Vectors</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Vectors\vector_3d.cpp">
+			<Filter>Source Files\Vectors</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Vectors\vector_4d.cpp">
+			<Filter>Source Files\Vectors</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Vectors\vector_Nd.cpp">
+			<Filter>Source Files\Vectors</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Weight_Functions\cubic_weight_functions.cpp">
+			<Filter>Source Files\Weight_Functions</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Weight_Functions\hexic_weight_functions.cpp">
+			<Filter>Source Files\Weight_Functions</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Weight_Functions\linear_weight_functions.cpp">
+			<Filter>Source Files\Weight_Functions</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Weight_Functions\quadratic_weight_functions.cpp">
+			<Filter>Source Files\Weight_Functions</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Core\Weight_Functions\quartic_weight_functions.cpp">
+			<Filter>Source Files\Weight_Functions</Filter>
+		</ClCompile>
+	</ItemGroup>
+</Project>

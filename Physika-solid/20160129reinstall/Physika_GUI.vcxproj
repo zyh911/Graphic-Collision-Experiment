@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Release|Win32">
+			<Configuration>Release</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{0454BB62-FF67-A60B-1B6B-D6E2AD734785}</ProjectGuid>
+		<RootNamespace>Physika_GUI</RootNamespace>
+		<Keyword>MakeFileProj</Keyword>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<UseOfMfc>false</UseOfMfc>
+		<PlatformToolset>v100</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings">
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Label="UserMacros" />
+	<PropertyGroup>
+	<_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+		<NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">echo Starting SCons &amp;&amp; &quot;E:\python2.7\Scripts\..\python.exe&quot; -c &quot;from os.path import join; import sys; sys.path = [ join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons&apos;), join(sys.prefix, &apos;scons&apos;) ] + sys.path; import SCons.Script; SCons.Script.main()&quot; -C &quot;E:\Physika-solid\20160129reinstall&quot; -f SConstruct &quot;E:\Physika-solid\20160129reinstall\Public_Library\lib\Physika_GUI.lib&quot;</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">echo Starting SCons &amp;&amp; &quot;E:\python2.7\Scripts\..\python.exe&quot; -c &quot;from os.path import join; import sys; sys.path = [ join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons&apos;), join(sys.prefix, &apos;scons&apos;) ] + sys.path; import SCons.Script; SCons.Script.main()&quot; -C &quot;E:\Physika-solid\20160129reinstall&quot; -f SConstruct &quot;E:\Physika-solid\20160129reinstall\Public_Library\lib\Physika_GUI.lib&quot;</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">echo Starting SCons &amp;&amp; &quot;E:\python2.7\Scripts\..\python.exe&quot; -c &quot;from os.path import join; import sys; sys.path = [ join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons&apos;), join(sys.prefix, &apos;scons&apos;) ] + sys.path; import SCons.Script; SCons.Script.main()&quot; -C &quot;E:\Physika-solid\20160129reinstall&quot; -f SConstruct -c &quot;E:\Physika-solid\20160129reinstall\Public_Library\lib\Physika_GUI.lib&quot;</NMakeCleanCommandLine>
+		<NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Physika-solid\20160129reinstall\Public_Library\lib\Physika_GUI.lib</NMakeOutput>
+		<NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Physika_Src/;Physika_Src/Physika_Dependency/OpenGL/;./</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemGroup>
+		<ClInclude Include="Physika_Src\Physika_GUI\Glui_Window\glui_window.h" />
+		<ClInclude Include="Physika_Src\Physika_GUI\Glut_Window\glut_window.h" />
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="Physika_Src\Physika_GUI\Glui_Window\glui_window.cpp" />
+		<ClCompile Include="Physika_Src\Physika_GUI\Glut_Window\glut_window.cpp" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="SConstruct" />
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>
+<!-- SCons Data:
+fXEBVQdSZWxlYXNlcQJjY29weV9yZWcKX3JlY29uc3RydWN0b3IKcQMoY1NDb25zLlRvb2wubXN2
+cwpDb25maWcKcQRjX19idWlsdGluX18Kb2JqZWN0CnEFTnRScQZ9cQcoVQd2YXJpYW50cQhoAlUH
+Y21kYXJnc3EJVQBVCHBsYXRmb3JtcQpVBVdpbjMycQtVB3J1bmZpbGVxDFVFRTpcUGh5c2lrYS1z
+b2xpZFwyMDE2MDEyOXJlaW5zdGFsbFxQdWJsaWNfTGlicmFyeVxsaWJcUGh5c2lrYV9HVUkubGli
+cQ1VC2J1aWxkdGFyZ2V0cQ5oDVUGb3V0ZGlycQ9VAHVicy4=
+
+fXEBKFULT3RoZXIgRmlsZXNxAl1VDUxvY2FsIEhlYWRlcnNxA11VDEhlYWRlciBGaWxlc3EEXXEF
+KFUxUGh5c2lrYV9TcmMvUGh5c2lrYV9HVUlcR2x1aV9XaW5kb3dcZ2x1aV93aW5kb3cuaHEGVTFQ
+aHlzaWthX1NyYy9QaHlzaWthX0dVSVxHbHV0X1dpbmRvd1xnbHV0X3dpbmRvdy5ocQdlVQxTb3Vy
+Y2UgRmlsZXNxCF1xCShVM1BoeXNpa2FfU3JjL1BoeXNpa2FfR1VJXEdsdWlfV2luZG93XGdsdWlf
+d2luZG93LmNwcHEKVTNQaHlzaWthX1NyYy9QaHlzaWthX0dVSVxHbHV0X1dpbmRvd1xnbHV0X3dp
+bmRvdy5jcHBxC2VVDlJlc291cmNlIEZpbGVzcQxddS4=
+-->

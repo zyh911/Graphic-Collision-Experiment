@@ -1,0 +1,15 @@
+﻿生成启动时间为 2016/8/11 20:14:55。
+     1>项目“E:\Physika-solid\20160129reinstall\Physika_Render.vcxproj”在节点 2 上(build 个目标)。
+     1>Build:
+         echo Starting SCons && "E:\python2.7\Scripts\..\python.exe" -c "from os.path import join; import sys; sys.path = [ join(sys.prefix, 'Lib', 'site-packages', 'scons-2.4.1'), join(sys.prefix, 'scons-2.4.1'), join(sys.prefix, 'Lib', 'site-packages', 'scons'), join(sys.prefix, 'scons') ] + sys.path; import SCons.Script; SCons.Script.main()" -C "E:\Physika-solid\20160129reinstall" -f SConstruct "E:\Physika-solid\20160129reinstall\Public_Library\lib\Physika_Render.lib"
+         Starting SCons 
+         scons: Reading SConscript files ...
+         scons: done reading SConscript files.
+         scons: Building targets ...
+         scons: `Public_Library\lib\Physika_Render.lib' is up to date.
+         scons: done building targets.
+     1>已完成生成项目“E:\Physika-solid\20160129reinstall\Physika_Render.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.58

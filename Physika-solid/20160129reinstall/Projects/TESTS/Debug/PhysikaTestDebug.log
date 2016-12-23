@@ -1,0 +1,20 @@
+﻿生成启动时间为 2016/8/11 21:34:56。
+     1>项目“E:\Physika-solid\20160129reinstall\Projects\TESTS\PhysikaTestDebug.vcxproj”在节点 2 上(build 个目标)。
+     1>Build:
+         echo Starting SCons && "E:\python2.7\Scripts\..\python.exe" -c "from os.path import join; import sys; sys.path = [ join(sys.prefix, 'Lib', 'site-packages', 'scons-2.4.1'), join(sys.prefix, 'scons-2.4.1'), join(sys.prefix, 'Lib', 'site-packages', 'scons'), join(sys.prefix, 'scons') ] + sys.path; import SCons.Script; SCons.Script.main()" -C "E:\Physika-solid\20160129reinstall\Projects\TESTS" -f SConstruct "E:\Physika-solid\20160129reinstall\Projects\TESTS\PhysikaTestDebug.exe"
+         Starting SCons 
+         scons: Reading SConscript files ...
+         ['../../Public_Library/include/', '../../Public_Library/include/Physika_Dependency/OpenGL/']
+         scons: done reading SConscript files.
+         scons: Building targets ...
+         link /DEBUG /OUT:PhysikaTestDebug.exe /LIBPATH:E:\Physika-solid\20160129reinstall\Public_Library\lib Physika_GUI.lib Physika_Dynamics.lib Physika_Render.lib Physika_IO.lib Physika_Geometry.lib Physika_Core.lib LodePNG.lib glui32.lib freeglut.lib glu32.lib opengl32.lib test.obj
+         Microsoft (R) Incremental Linker Version 10.00.30319.01
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         LINK : 没有找到 PhysikaTestDebug.exe 或上一个增量链接没有生成它；正在执行完全链接
+         scons: done building targets.
+     1>已完成生成项目“E:\Physika-solid\20160129reinstall\Projects\TESTS\PhysikaTestDebug.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:26.25

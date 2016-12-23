@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="Header Files">
+			<UniqueIdentifier>{7b42d31d-d53c-4868-8b92-ca2bc9fc052f}</UniqueIdentifier>
+			<Extensions>h;hpp;hxx;hm;inl</Extensions>
+		</Filter>
+		<Filter Include="Header Files\Camera">
+			<UniqueIdentifier>{F5ED7E33-7BB3-D2A5-1866-EED2EC18DB66}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Color">
+			<UniqueIdentifier>{17AD568E-DC57-BAED-18A4-6D5428A02252}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Grid_Render">
+			<UniqueIdentifier>{9E1514F8-FFD5-4A06-2B3F-137B1AB8420D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Lights">
+			<UniqueIdentifier>{DA0CB481-C325-3DDD-F5D0-64A986D74416}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\OpenGL_Primitives">
+			<UniqueIdentifier>{EA936BFD-D955-1096-4EBF-0CB6827F6D19}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Point_Render">
+			<UniqueIdentifier>{39AE53C0-7F6D-384B-6122-A0F5490C7D88}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Render_Base">
+			<UniqueIdentifier>{FC87716F-8D0E-C89B-E1CB-0E2268771B3A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Render_Manager">
+			<UniqueIdentifier>{4B0C98E8-F1E1-2C8D-A81E-63548E7BB56A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Surface_Mesh_Render">
+			<UniqueIdentifier>{7885F623-8E2D-904C-AB8C-F7D9941B9AC9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Volumetric_Mesh_Render">
+			<UniqueIdentifier>{3D47281F-8AFF-5E38-A62C-5D200E6E2874}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files">
+			<UniqueIdentifier>{7b42d31d-d53c-4868-8b92-ca2bc9fc052f}</UniqueIdentifier>
+			<Extensions>cpp;c;cxx;l;y;def;odl;idl;hpj;bat</Extensions>
+		</Filter>
+		<Filter Include="Source Files\Camera">
+			<UniqueIdentifier>{49DC1FE2-0628-6152-DCB3-6C6C517E6120}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Color">
+			<UniqueIdentifier>{EB79B063-3B07-4E34-07D1-E7D94F492FCA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Grid_Render">
+			<UniqueIdentifier>{A642EAE8-BD4B-4B69-7A0B-12AE85D7D8A3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Lights">
+			<UniqueIdentifier>{791E666F-8486-82CA-A68A-E4A5FD534433}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Point_Render">
+			<UniqueIdentifier>{18C82059-6900-9B9C-E5D9-1A9C725BADD8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Render_Manager">
+			<UniqueIdentifier>{86FAFCB8-8A53-3D46-6309-EF4102F85BE4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Surface_Mesh_Render">
+			<UniqueIdentifier>{BFCDE039-D5CD-BFCA-AE37-ED45E9CAF556}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Volumetric_Mesh_Render">
+			<UniqueIdentifier>{103D27E3-D833-FC76-4082-3819B983DAA6}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="Physika_Src\Physika_Render\Camera\camera.h">
+			<Filter>Header Files\Camera</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Render\Color\color.h">
+			<Filter>Header Files\Color</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Render\Grid_Render\grid_render-inl.h">
+			<Filter>Header Files\Grid_Render</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Render\Grid_Render\grid_render.h">
+			<Filter>Header Files\Grid_Render</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Render\Lights\light-inl.h">
+			<Filter>Header Files\Lights</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Render\Lights\light.h">
+			<Filter>Header Files\Lights</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Render\Lights\light_manager.h">
+			<Filter>Header Files\Lights</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Render\Lights\spot_light-inl.h">
+			<Filter>Header Files\Lights</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Render\Lights\spot_light.h">
+			<Filter>Header Files\Lights</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Render\OpenGL_Primitives\opengl_primitives.h">
+			<Filter>Header Files\OpenGL_Primitives</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Render\Point_Render\point_render-inl.h">
+			<Filter>Header Files\Point_Render</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Render\Point_Render\point_render.h">
+			<Filter>Header Files\Point_Render</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Render\Render_Base\render_base.h">
+			<Filter>Header Files\Render_Base</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Render\Render_Manager\render_manager.h">
+			<Filter>Header Files\Render_Manager</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Render\Surface_Mesh_Render\surface_mesh_render.h">
+			<Filter>Header Files\Surface_Mesh_Render</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Render\Volumetric_Mesh_Render\volumetric_mesh_render.h">
+			<Filter>Header Files\Volumetric_Mesh_Render</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="Physika_Src\Physika_Render\Camera\camera.cpp">
+			<Filter>Source Files\Camera</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Render\Color\color.cpp">
+			<Filter>Source Files\Color</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Render\Grid_Render\grid_render.cpp">
+			<Filter>Source Files\Grid_Render</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Render\Lights\light.cpp">
+			<Filter>Source Files\Lights</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Render\Lights\light_manager.cpp">
+			<Filter>Source Files\Lights</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Render\Lights\spot_light.cpp">
+			<Filter>Source Files\Lights</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Render\Point_Render\point_render.cpp">
+			<Filter>Source Files\Point_Render</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Render\Render_Manager\render_manager.cpp">
+			<Filter>Source Files\Render_Manager</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Render\Surface_Mesh_Render\surface_mesh_render.cpp">
+			<Filter>Source Files\Surface_Mesh_Render</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Render\Volumetric_Mesh_Render\volumetric_mesh_render.cpp">
+			<Filter>Source Files\Volumetric_Mesh_Render</Filter>
+		</ClCompile>
+	</ItemGroup>
+</Project>

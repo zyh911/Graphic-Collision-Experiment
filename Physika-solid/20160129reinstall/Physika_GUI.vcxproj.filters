@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="Header Files">
+			<UniqueIdentifier>{7b42d31d-d53c-4868-8b92-ca2bc9fc052f}</UniqueIdentifier>
+			<Extensions>h;hpp;hxx;hm;inl</Extensions>
+		</Filter>
+		<Filter Include="Header Files\Glui_Window">
+			<UniqueIdentifier>{F9DC75C4-9B77-862E-9035-E96F8330A7D5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Glut_Window">
+			<UniqueIdentifier>{4751992E-1B54-74E1-62F8-91D8039F27D0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files">
+			<UniqueIdentifier>{7b42d31d-d53c-4868-8b92-ca2bc9fc052f}</UniqueIdentifier>
+			<Extensions>cpp;c;cxx;l;y;def;odl;idl;hpj;bat</Extensions>
+		</Filter>
+		<Filter Include="Source Files\Glui_Window">
+			<UniqueIdentifier>{9E9FA697-2EBC-19D7-4656-2822AB0B7E32}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Glut_Window">
+			<UniqueIdentifier>{27C3A25C-93D2-CE5D-6DE2-A14B3D6CE010}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="Physika_Src\Physika_GUI\Glui_Window\glui_window.h">
+			<Filter>Header Files\Glui_Window</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_GUI\Glut_Window\glut_window.h">
+			<Filter>Header Files\Glut_Window</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="Physika_Src\Physika_GUI\Glui_Window\glui_window.cpp">
+			<Filter>Source Files\Glui_Window</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_GUI\Glut_Window\glut_window.cpp">
+			<Filter>Source Files\Glut_Window</Filter>
+		</ClCompile>
+	</ItemGroup>
+</Project>

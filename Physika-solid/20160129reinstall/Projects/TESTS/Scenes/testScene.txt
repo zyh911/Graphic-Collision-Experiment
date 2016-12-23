@@ -1,0 +1,45 @@
+# scene test
+
+--driver--
+
+gravity=2.0
+dt=0.02
+detection=discrete
+
+--mesh--
+
+path=Models/box.obj
+path=Models/ball_high.obj
+
+--model--
+
+# ground is a slope
+meshindex=0
+scale=(100.0, 1.0, 100.0)
+translation=(0.0, -0.5, 0.0)
+rotation=(0.2, 0.0, 0.0)
+fixed=true
+friction=0.3
+restitution=0.6
+
+# object 1 is a block
+meshindex=0
+translation=(2.0, 2.0, 0.0)
+friction=0.2
+restitution=1.0
+velocity=(0.0, 0.0, 0.3)
+angular=(0.2, 0.3, 0.4)
+
+# objct 2 is a ball with initial spin
+meshindex=1
+scale=(0.02, 0.02, 0.02)
+translation=(-1, 5.0, 2.0)
+friction=0.4
+restitution=0.2
+angular=(0.0, 0.0, -10.0)
+
+--view--
+
+position=(5.0, 1.0, 5.0)
+focus=(2.0, 0.5, 0.0)
+angle=90

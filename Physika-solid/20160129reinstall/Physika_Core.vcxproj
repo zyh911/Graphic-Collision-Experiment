@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Release|Win32">
+			<Configuration>Release</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{FEE788FC-4131-4A32-4631-09262CDD5F80}</ProjectGuid>
+		<RootNamespace>Physika_Core</RootNamespace>
+		<Keyword>MakeFileProj</Keyword>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<UseOfMfc>false</UseOfMfc>
+		<PlatformToolset>v100</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings">
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Label="UserMacros" />
+	<PropertyGroup>
+	<_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+		<NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">echo Starting SCons &amp;&amp; &quot;E:\python2.7\Scripts\..\python.exe&quot; -c &quot;from os.path import join; import sys; sys.path = [ join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons&apos;), join(sys.prefix, &apos;scons&apos;) ] + sys.path; import SCons.Script; SCons.Script.main()&quot; -C &quot;E:\Physika-solid\20160129reinstall&quot; -f SConstruct &quot;E:\Physika-solid\20160129reinstall\Public_Library\lib\Physika_Core.lib&quot;</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">echo Starting SCons &amp;&amp; &quot;E:\python2.7\Scripts\..\python.exe&quot; -c &quot;from os.path import join; import sys; sys.path = [ join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons&apos;), join(sys.prefix, &apos;scons&apos;) ] + sys.path; import SCons.Script; SCons.Script.main()&quot; -C &quot;E:\Physika-solid\20160129reinstall&quot; -f SConstruct &quot;E:\Physika-solid\20160129reinstall\Public_Library\lib\Physika_Core.lib&quot;</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">echo Starting SCons &amp;&amp; &quot;E:\python2.7\Scripts\..\python.exe&quot; -c &quot;from os.path import join; import sys; sys.path = [ join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons&apos;), join(sys.prefix, &apos;scons&apos;) ] + sys.path; import SCons.Script; SCons.Script.main()&quot; -C &quot;E:\Physika-solid\20160129reinstall&quot; -f SConstruct -c &quot;E:\Physika-solid\20160129reinstall\Public_Library\lib\Physika_Core.lib&quot;</NMakeCleanCommandLine>
+		<NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Physika-solid\20160129reinstall\Public_Library\lib\Physika_Core.lib</NMakeOutput>
+		<NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Physika_Src/;Physika_Src/Physika_Dependency/OpenGL/;./</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemGroup>
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array-inl.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_const_iterator-inl.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_const_iterator.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_iterator-inl.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_iterator.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_manager.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_Nd-inl.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_Nd.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_Nd_const_iterator-inl.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_Nd_const_iterator.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_Nd_iterator-inl.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Arrays\array_Nd_iterator.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Config_File\config_file.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Data_Structures\heap-inl.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Data_Structures\heap.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Grid_Weight_Functions\grid_cubic_weight_functions.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Grid_Weight_Functions\grid_linear_weight_functions.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Grid_Weight_Functions\grid_quadratic_weight_functions.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Grid_Weight_Functions\grid_weight_function.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Grid_Weight_Functions\grid_weight_function_creator.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Image\image.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Matrices\matrix_1x1.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Matrices\matrix_2x2.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Matrices\matrix_3x3.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Matrices\matrix_4x4.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Matrices\matrix_base.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Matrices\matrix_MxN.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Matrices\sparse_matrix.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Matrices\sparse_matrix_iterator.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Matrices\square_matrix.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Quaternion\quaternion.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Range\interval.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Range\range.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Timer\timer.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Transform\transform.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Transform\transform_2d.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Transform\transform_3d.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Utilities\File_Utilities\file_path_utilities.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Utilities\File_Utilities\parse_line.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Utilities\cxx11_support.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Utilities\dimension_trait.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Utilities\global_config.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Utilities\math_utilities.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Utilities\physika_assert.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Utilities\type_utilities.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Vectors\vector.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Vectors\vector_1d.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Vectors\vector_2d.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Vectors\vector_3d.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Vectors\vector_4d.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Vectors\vector_base.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Vectors\vector_Nd.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Weight_Functions\cubic_weight_functions.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Weight_Functions\hexic_weight_functions.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Weight_Functions\linear_weight_functions.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Weight_Functions\quadratic_weight_functions.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Weight_Functions\quartic_weight_functions.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Weight_Functions\weight_function.h" />
+		<ClInclude Include="Physika_Src\Physika_Core\Weight_Functions\weight_function_creator.h" />
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="Physika_Src\Physika_Core\Arrays\array_manager.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Config_File\config_file.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Grid_Weight_Functions\grid_cubic_weight_functions.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Grid_Weight_Functions\grid_linear_weight_functions.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Grid_Weight_Functions\grid_quadratic_weight_functions.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Image\image.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Matrices\matrix_1x1.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Matrices\matrix_2x2.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Matrices\matrix_3x3.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Matrices\matrix_4x4.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Matrices\matrix_MxN.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Matrices\sparse_matrix.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Matrices\sparse_matrix_iterator.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Quaternion\quaternion.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Range\interval.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Range\range.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Timer\timer.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Transform\transform_2d.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Transform\transform_3d.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Utilities\File_Utilities\file_path_utilities.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Utilities\File_Utilities\parse_line.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Vectors\vector_1d.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Vectors\vector_2d.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Vectors\vector_3d.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Vectors\vector_4d.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Vectors\vector_Nd.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Weight_Functions\cubic_weight_functions.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Weight_Functions\hexic_weight_functions.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Weight_Functions\linear_weight_functions.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Weight_Functions\quadratic_weight_functions.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Core\Weight_Functions\quartic_weight_functions.cpp" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="SConstruct" />
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>
+<!-- SCons Data:
+fXEBVQdSZWxlYXNlcQJjY29weV9yZWcKX3JlY29uc3RydWN0b3IKcQMoY1NDb25zLlRvb2wubXN2
+cwpDb25maWcKcQRjX19idWlsdGluX18Kb2JqZWN0CnEFTnRScQZ9cQcoVQd2YXJpYW50cQhoAlUH
+Y21kYXJnc3EJVQBVCHBsYXRmb3JtcQpVBVdpbjMycQtVB3J1bmZpbGVxDFVGRTpcUGh5c2lrYS1z
+b2xpZFwyMDE2MDEyOXJlaW5zdGFsbFxQdWJsaWNfTGlicmFyeVxsaWJcUGh5c2lrYV9Db3JlLmxp
+YnENVQtidWlsZHRhcmdldHEOaA1VBm91dGRpcnEPVQB1YnMu
+
+fXEBKFULT3RoZXIgRmlsZXNxAl1VDUxvY2FsIEhlYWRlcnNxA11VDEhlYWRlciBGaWxlc3EEXXEF
+KFUrUGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXEFycmF5c1xhcnJheS1pbmwuaHEGVSdQaHlzaWth
+X1NyYy9QaHlzaWthX0NvcmVcQXJyYXlzXGFycmF5LmhxB1U6UGh5c2lrYV9TcmMvUGh5c2lrYV9D
+b3JlXEFycmF5c1xhcnJheV9jb25zdF9pdGVyYXRvci1pbmwuaHEIVTZQaHlzaWthX1NyYy9QaHlz
+aWthX0NvcmVcQXJyYXlzXGFycmF5X2NvbnN0X2l0ZXJhdG9yLmhxCVU0UGh5c2lrYV9TcmMvUGh5
+c2lrYV9Db3JlXEFycmF5c1xhcnJheV9pdGVyYXRvci1pbmwuaHEKVTBQaHlzaWthX1NyYy9QaHlz
+aWthX0NvcmVcQXJyYXlzXGFycmF5X2l0ZXJhdG9yLmhxC1UvUGh5c2lrYV9TcmMvUGh5c2lrYV9D
+b3JlXEFycmF5c1xhcnJheV9tYW5hZ2VyLmhxDFUuUGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXEFy
+cmF5c1xhcnJheV9OZC1pbmwuaHENVSpQaHlzaWthX1NyYy9QaHlzaWthX0NvcmVcQXJyYXlzXGFy
+cmF5X05kLmhxDlU9UGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXEFycmF5c1xhcnJheV9OZF9jb25z
+dF9pdGVyYXRvci1pbmwuaHEPVTlQaHlzaWthX1NyYy9QaHlzaWthX0NvcmVcQXJyYXlzXGFycmF5
+X05kX2NvbnN0X2l0ZXJhdG9yLmhxEFU3UGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXEFycmF5c1xh
+cnJheV9OZF9pdGVyYXRvci1pbmwuaHERVTNQaHlzaWthX1NyYy9QaHlzaWthX0NvcmVcQXJyYXlz
+XGFycmF5X05kX2l0ZXJhdG9yLmhxElUyUGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXENvbmZpZ19G
+aWxlXGNvbmZpZ19maWxlLmhxE1UzUGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXERhdGFfU3RydWN0
+dXJlc1xoZWFwLWlubC5ocRRVL1BoeXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxEYXRhX1N0cnVjdHVy
+ZXNcaGVhcC5ocRVVTFBoeXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxHcmlkX1dlaWdodF9GdW5jdGlv
+bnNcZ3JpZF9jdWJpY193ZWlnaHRfZnVuY3Rpb25zLmhxFlVNUGh5c2lrYV9TcmMvUGh5c2lrYV9D
+b3JlXEdyaWRfV2VpZ2h0X0Z1bmN0aW9uc1xncmlkX2xpbmVhcl93ZWlnaHRfZnVuY3Rpb25zLmhx
+F1VQUGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXEdyaWRfV2VpZ2h0X0Z1bmN0aW9uc1xncmlkX3F1
+YWRyYXRpY193ZWlnaHRfZnVuY3Rpb25zLmhxGFVFUGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXEdy
+aWRfV2VpZ2h0X0Z1bmN0aW9uc1xncmlkX3dlaWdodF9mdW5jdGlvbi5ocRlVTVBoeXNpa2FfU3Jj
+L1BoeXNpa2FfQ29yZVxHcmlkX1dlaWdodF9GdW5jdGlvbnNcZ3JpZF93ZWlnaHRfZnVuY3Rpb25f
+Y3JlYXRvci5ocRpVJlBoeXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxJbWFnZVxpbWFnZS5ocRtVLlBo
+eXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxNYXRyaWNlc1xtYXRyaXhfMXgxLmhxHFUuUGh5c2lrYV9T
+cmMvUGh5c2lrYV9Db3JlXE1hdHJpY2VzXG1hdHJpeF8yeDIuaHEdVS5QaHlzaWthX1NyYy9QaHlz
+aWthX0NvcmVcTWF0cmljZXNcbWF0cml4XzN4My5ocR5VLlBoeXNpa2FfU3JjL1BoeXNpa2FfQ29y
+ZVxNYXRyaWNlc1xtYXRyaXhfNHg0LmhxH1UvUGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXE1hdHJp
+Y2VzXG1hdHJpeF9iYXNlLmhxIFUuUGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXE1hdHJpY2VzXG1h
+dHJpeF9NeE4uaHEhVTFQaHlzaWthX1NyYy9QaHlzaWthX0NvcmVcTWF0cmljZXNcc3BhcnNlX21h
+dHJpeC5ocSJVOlBoeXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxNYXRyaWNlc1xzcGFyc2VfbWF0cml4
+X2l0ZXJhdG9yLmhxI1UxUGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXE1hdHJpY2VzXHNxdWFyZV9t
+YXRyaXguaHEkVTBQaHlzaWthX1NyYy9QaHlzaWthX0NvcmVcUXVhdGVybmlvblxxdWF0ZXJuaW9u
+LmhxJVUpUGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXFJhbmdlXGludGVydmFsLmhxJlUmUGh5c2lr
+YV9TcmMvUGh5c2lrYV9Db3JlXFJhbmdlXHJhbmdlLmhxJ1UmUGh5c2lrYV9TcmMvUGh5c2lrYV9D
+b3JlXFRpbWVyXHRpbWVyLmhxKFUuUGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXFRyYW5zZm9ybVx0
+cmFuc2Zvcm0uaHEpVTFQaHlzaWthX1NyYy9QaHlzaWthX0NvcmVcVHJhbnNmb3JtXHRyYW5zZm9y
+bV8yZC5ocSpVMVBoeXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxUcmFuc2Zvcm1cdHJhbnNmb3JtXzNk
+LmhxK1UyUGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXFV0aWxpdGllc1xjeHgxMV9zdXBwb3J0Lmhx
+LFU0UGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXFV0aWxpdGllc1xkaW1lbnNpb25fdHJhaXQuaHEt
+VUdQaHlzaWthX1NyYy9QaHlzaWthX0NvcmVcVXRpbGl0aWVzXEZpbGVfVXRpbGl0aWVzXGZpbGVf
+cGF0aF91dGlsaXRpZXMuaHEuVT5QaHlzaWthX1NyYy9QaHlzaWthX0NvcmVcVXRpbGl0aWVzXEZp
+bGVfVXRpbGl0aWVzXHBhcnNlX2xpbmUuaHEvVTJQaHlzaWthX1NyYy9QaHlzaWthX0NvcmVcVXRp
+bGl0aWVzXGdsb2JhbF9jb25maWcuaHEwVTNQaHlzaWthX1NyYy9QaHlzaWthX0NvcmVcVXRpbGl0
+aWVzXG1hdGhfdXRpbGl0aWVzLmhxMVUzUGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXFV0aWxpdGll
+c1xwaHlzaWthX2Fzc2VydC5ocTJVM1BoeXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxVdGlsaXRpZXNc
+dHlwZV91dGlsaXRpZXMuaHEzVSlQaHlzaWthX1NyYy9QaHlzaWthX0NvcmVcVmVjdG9yc1x2ZWN0
+b3IuaHE0VSxQaHlzaWthX1NyYy9QaHlzaWthX0NvcmVcVmVjdG9yc1x2ZWN0b3JfMWQuaHE1VSxQ
+aHlzaWthX1NyYy9QaHlzaWthX0NvcmVcVmVjdG9yc1x2ZWN0b3JfMmQuaHE2VSxQaHlzaWthX1Ny
+Yy9QaHlzaWthX0NvcmVcVmVjdG9yc1x2ZWN0b3JfM2QuaHE3VSxQaHlzaWthX1NyYy9QaHlzaWth
+X0NvcmVcVmVjdG9yc1x2ZWN0b3JfNGQuaHE4VS5QaHlzaWthX1NyYy9QaHlzaWthX0NvcmVcVmVj
+dG9yc1x2ZWN0b3JfYmFzZS5ocTlVLFBoeXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxWZWN0b3JzXHZl
+Y3Rvcl9OZC5ocTpVQlBoeXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxXZWlnaHRfRnVuY3Rpb25zXGN1
+YmljX3dlaWdodF9mdW5jdGlvbnMuaHE7VUJQaHlzaWthX1NyYy9QaHlzaWthX0NvcmVcV2VpZ2h0
+X0Z1bmN0aW9uc1xoZXhpY193ZWlnaHRfZnVuY3Rpb25zLmhxPFVDUGh5c2lrYV9TcmMvUGh5c2lr
+YV9Db3JlXFdlaWdodF9GdW5jdGlvbnNcbGluZWFyX3dlaWdodF9mdW5jdGlvbnMuaHE9VUZQaHlz
+aWthX1NyYy9QaHlzaWthX0NvcmVcV2VpZ2h0X0Z1bmN0aW9uc1xxdWFkcmF0aWNfd2VpZ2h0X2Z1
+bmN0aW9ucy5ocT5VRFBoeXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxXZWlnaHRfRnVuY3Rpb25zXHF1
+YXJ0aWNfd2VpZ2h0X2Z1bmN0aW9ucy5ocT9VO1BoeXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxXZWln
+aHRfRnVuY3Rpb25zXHdlaWdodF9mdW5jdGlvbi5ocUBVQ1BoeXNpa2FfU3JjL1BoeXNpa2FfQ29y
+ZVxXZWlnaHRfRnVuY3Rpb25zXHdlaWdodF9mdW5jdGlvbl9jcmVhdG9yLmhxQWVVDFNvdXJjZSBG
+aWxlc3FCXXFDKFUxUGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXEFycmF5c1xhcnJheV9tYW5hZ2Vy
+LmNwcHFEVTRQaHlzaWthX1NyYy9QaHlzaWthX0NvcmVcQ29uZmlnX0ZpbGVcY29uZmlnX2ZpbGUu
+Y3BwcUVVTlBoeXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxHcmlkX1dlaWdodF9GdW5jdGlvbnNcZ3Jp
+ZF9jdWJpY193ZWlnaHRfZnVuY3Rpb25zLmNwcHFGVU9QaHlzaWthX1NyYy9QaHlzaWthX0NvcmVc
+R3JpZF9XZWlnaHRfRnVuY3Rpb25zXGdyaWRfbGluZWFyX3dlaWdodF9mdW5jdGlvbnMuY3BwcUdV
+UlBoeXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxHcmlkX1dlaWdodF9GdW5jdGlvbnNcZ3JpZF9xdWFk
+cmF0aWNfd2VpZ2h0X2Z1bmN0aW9ucy5jcHBxSFUoUGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXElt
+YWdlXGltYWdlLmNwcHFJVTBQaHlzaWthX1NyYy9QaHlzaWthX0NvcmVcTWF0cmljZXNcbWF0cml4
+XzF4MS5jcHBxSlUwUGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXE1hdHJpY2VzXG1hdHJpeF8yeDIu
+Y3BwcUtVMFBoeXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxNYXRyaWNlc1xtYXRyaXhfM3gzLmNwcHFM
+VTBQaHlzaWthX1NyYy9QaHlzaWthX0NvcmVcTWF0cmljZXNcbWF0cml4XzR4NC5jcHBxTVUwUGh5
+c2lrYV9TcmMvUGh5c2lrYV9Db3JlXE1hdHJpY2VzXG1hdHJpeF9NeE4uY3BwcU5VM1BoeXNpa2Ff
+U3JjL1BoeXNpa2FfQ29yZVxNYXRyaWNlc1xzcGFyc2VfbWF0cml4LmNwcHFPVTxQaHlzaWthX1Ny
+Yy9QaHlzaWthX0NvcmVcTWF0cmljZXNcc3BhcnNlX21hdHJpeF9pdGVyYXRvci5jcHBxUFUyUGh5
+c2lrYV9TcmMvUGh5c2lrYV9Db3JlXFF1YXRlcm5pb25ccXVhdGVybmlvbi5jcHBxUVUrUGh5c2lr
+YV9TcmMvUGh5c2lrYV9Db3JlXFJhbmdlXGludGVydmFsLmNwcHFSVShQaHlzaWthX1NyYy9QaHlz
+aWthX0NvcmVcUmFuZ2VccmFuZ2UuY3BwcVNVKFBoeXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxUaW1l
+clx0aW1lci5jcHBxVFUzUGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXFRyYW5zZm9ybVx0cmFuc2Zv
+cm1fMmQuY3BwcVVVM1BoeXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxUcmFuc2Zvcm1cdHJhbnNmb3Jt
+XzNkLmNwcHFWVUlQaHlzaWthX1NyYy9QaHlzaWthX0NvcmVcVXRpbGl0aWVzXEZpbGVfVXRpbGl0
+aWVzXGZpbGVfcGF0aF91dGlsaXRpZXMuY3BwcVdVQFBoeXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxV
+dGlsaXRpZXNcRmlsZV9VdGlsaXRpZXNccGFyc2VfbGluZS5jcHBxWFUuUGh5c2lrYV9TcmMvUGh5
+c2lrYV9Db3JlXFZlY3RvcnNcdmVjdG9yXzFkLmNwcHFZVS5QaHlzaWthX1NyYy9QaHlzaWthX0Nv
+cmVcVmVjdG9yc1x2ZWN0b3JfMmQuY3BwcVpVLlBoeXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxWZWN0
+b3JzXHZlY3Rvcl8zZC5jcHBxW1UuUGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXFZlY3RvcnNcdmVj
+dG9yXzRkLmNwcHFcVS5QaHlzaWthX1NyYy9QaHlzaWthX0NvcmVcVmVjdG9yc1x2ZWN0b3JfTmQu
+Y3BwcV1VRFBoeXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxXZWlnaHRfRnVuY3Rpb25zXGN1YmljX3dl
+aWdodF9mdW5jdGlvbnMuY3BwcV5VRFBoeXNpa2FfU3JjL1BoeXNpa2FfQ29yZVxXZWlnaHRfRnVu
+Y3Rpb25zXGhleGljX3dlaWdodF9mdW5jdGlvbnMuY3BwcV9VRVBoeXNpa2FfU3JjL1BoeXNpa2Ff
+Q29yZVxXZWlnaHRfRnVuY3Rpb25zXGxpbmVhcl93ZWlnaHRfZnVuY3Rpb25zLmNwcHFgVUhQaHlz
+aWthX1NyYy9QaHlzaWthX0NvcmVcV2VpZ2h0X0Z1bmN0aW9uc1xxdWFkcmF0aWNfd2VpZ2h0X2Z1
+bmN0aW9ucy5jcHBxYVVGUGh5c2lrYV9TcmMvUGh5c2lrYV9Db3JlXFdlaWdodF9GdW5jdGlvbnNc
+cXVhcnRpY193ZWlnaHRfZnVuY3Rpb25zLmNwcHFiZVUOUmVzb3VyY2UgRmlsZXNxY111Lg==
+-->

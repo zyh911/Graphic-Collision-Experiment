@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Release|Win32">
+			<Configuration>Release</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{EC7A0237-12DE-BE4E-0D3F-69B360AEC6CE}</ProjectGuid>
+		<RootNamespace>Physika_Geometry</RootNamespace>
+		<Keyword>MakeFileProj</Keyword>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<UseOfMfc>false</UseOfMfc>
+		<PlatformToolset>v100</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings">
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Label="UserMacros" />
+	<PropertyGroup>
+	<_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+		<NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">echo Starting SCons &amp;&amp; &quot;E:\python2.7\Scripts\..\python.exe&quot; -c &quot;from os.path import join; import sys; sys.path = [ join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons&apos;), join(sys.prefix, &apos;scons&apos;) ] + sys.path; import SCons.Script; SCons.Script.main()&quot; -C &quot;E:\Physika-solid\20160129reinstall&quot; -f SConstruct &quot;E:\Physika-solid\20160129reinstall\Public_Library\lib\Physika_Geometry.lib&quot;</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">echo Starting SCons &amp;&amp; &quot;E:\python2.7\Scripts\..\python.exe&quot; -c &quot;from os.path import join; import sys; sys.path = [ join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons&apos;), join(sys.prefix, &apos;scons&apos;) ] + sys.path; import SCons.Script; SCons.Script.main()&quot; -C &quot;E:\Physika-solid\20160129reinstall&quot; -f SConstruct &quot;E:\Physika-solid\20160129reinstall\Public_Library\lib\Physika_Geometry.lib&quot;</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">echo Starting SCons &amp;&amp; &quot;E:\python2.7\Scripts\..\python.exe&quot; -c &quot;from os.path import join; import sys; sys.path = [ join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons&apos;), join(sys.prefix, &apos;scons&apos;) ] + sys.path; import SCons.Script; SCons.Script.main()&quot; -C &quot;E:\Physika-solid\20160129reinstall&quot; -f SConstruct -c &quot;E:\Physika-solid\20160129reinstall\Public_Library\lib\Physika_Geometry.lib&quot;</NMakeCleanCommandLine>
+		<NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Physika-solid\20160129reinstall\Public_Library\lib\Physika_Geometry.lib</NMakeOutput>
+		<NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Physika_Src/;Physika_Src/Physika_Dependency/OpenGL/;./</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemGroup>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Basic_Geometry\basic_geometry.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Basic_Geometry\box.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Basic_Geometry\plane.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Basic_Geometry\sphere.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Boundary_Meshes\edge.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Boundary_Meshes\edge_group.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Boundary_Meshes\face.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Boundary_Meshes\face_group.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Boundary_Meshes\material.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Boundary_Meshes\polygon.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Boundary_Meshes\surface_mesh.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Boundary_Meshes\vertex.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\bounding_volume.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\bounding_volume_axisAlignedBox.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\bounding_volume_kdop18.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\bounding_volume_octagon.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\bvh_base.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\bvh_node_base.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\object_bvh.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\object_bvh_ccd.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\object_bvh_ccd_node.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\object_bvh_node.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\scene_bvh.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\scene_bvh_node.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Cartesian_Grids\grid.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Cartesian_Grids\grid_iterator.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Implicit_Objects\analytic_implicit_object.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Implicit_Objects\implicit_object.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Implicit_Objects\levelset_implicit_object.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Level_Sets\level_set.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\cubic_mesh.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\quad_mesh.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\tet_mesh.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\tri_mesh.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\volumetric_mesh.h" />
+		<ClInclude Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\volumetric_mesh_internal.h" />
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Basic_Geometry\box.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Basic_Geometry\plane.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Basic_Geometry\sphere.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Boundary_Meshes\edge.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Boundary_Meshes\edge_group.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Boundary_Meshes\face.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Boundary_Meshes\face_group.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Boundary_Meshes\material.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Boundary_Meshes\polygon.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Boundary_Meshes\surface_mesh.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Boundary_Meshes\vertex.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\bounding_volume.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\bounding_volume_axisAlignedBox.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\bounding_volume_kdop18.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\bounding_volume_octagon.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\bvh_base.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\bvh_node_base.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\object_bvh.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\object_bvh_ccd.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\object_bvh_ccd_node.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\object_bvh_node.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\scene_bvh.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\scene_bvh_node.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Cartesian_Grids\grid.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Cartesian_Grids\grid_iterator.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\cubic_mesh.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\quad_mesh.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\tet_mesh.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\tri_mesh.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\volumetric_mesh.cpp" />
+		<ClCompile Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\volumetric_mesh_internal.cpp" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="SConstruct" />
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>
+<!-- SCons Data:
+fXEBVQdSZWxlYXNlcQJjY29weV9yZWcKX3JlY29uc3RydWN0b3IKcQMoY1NDb25zLlRvb2wubXN2
+cwpDb25maWcKcQRjX19idWlsdGluX18Kb2JqZWN0CnEFTnRScQZ9cQcoVQd2YXJpYW50cQhoAlUH
+Y21kYXJnc3EJVQBVCHBsYXRmb3JtcQpVBVdpbjMycQtVB3J1bmZpbGVxDFVKRTpcUGh5c2lrYS1z
+b2xpZFwyMDE2MDEyOXJlaW5zdGFsbFxQdWJsaWNfTGlicmFyeVxsaWJcUGh5c2lrYV9HZW9tZXRy
+eS5saWJxDVULYnVpbGR0YXJnZXRxDmgNVQZvdXRkaXJxD1UAdWJzLg==
+
+fXEBKFULT3RoZXIgRmlsZXNxAl1VDUxvY2FsIEhlYWRlcnNxA11VDEhlYWRlciBGaWxlc3EEXXEF
+KFU8UGh5c2lrYV9TcmMvUGh5c2lrYV9HZW9tZXRyeVxCYXNpY19HZW9tZXRyeVxiYXNpY19nZW9t
+ZXRyeS5ocQZVMVBoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlcQmFzaWNfR2VvbWV0cnlcYm94
+LmhxB1UzUGh5c2lrYV9TcmMvUGh5c2lrYV9HZW9tZXRyeVxCYXNpY19HZW9tZXRyeVxwbGFuZS5o
+cQhVNFBoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlcQmFzaWNfR2VvbWV0cnlcc3BoZXJlLmhx
+CVUzUGh5c2lrYV9TcmMvUGh5c2lrYV9HZW9tZXRyeVxCb3VuZGFyeV9NZXNoZXNcZWRnZS5ocQpV
+OVBoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlcQm91bmRhcnlfTWVzaGVzXGVkZ2VfZ3JvdXAu
+aHELVTNQaHlzaWthX1NyYy9QaHlzaWthX0dlb21ldHJ5XEJvdW5kYXJ5X01lc2hlc1xmYWNlLmhx
+DFU5UGh5c2lrYV9TcmMvUGh5c2lrYV9HZW9tZXRyeVxCb3VuZGFyeV9NZXNoZXNcZmFjZV9ncm91
+cC5ocQ1VN1BoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlcQm91bmRhcnlfTWVzaGVzXG1hdGVy
+aWFsLmhxDlU2UGh5c2lrYV9TcmMvUGh5c2lrYV9HZW9tZXRyeVxCb3VuZGFyeV9NZXNoZXNccG9s
+eWdvbi5ocQ9VO1BoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlcQm91bmRhcnlfTWVzaGVzXHN1
+cmZhY2VfbWVzaC5ocRBVNVBoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlcQm91bmRhcnlfTWVz
+aGVzXHZlcnRleC5ocRFVPlBoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlcQm91bmRpbmdfVm9s
+dW1lXGJvdW5kaW5nX3ZvbHVtZS5ocRJVTVBoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlcQm91
+bmRpbmdfVm9sdW1lXGJvdW5kaW5nX3ZvbHVtZV9heGlzQWxpZ25lZEJveC5ocRNVRVBoeXNpa2Ff
+U3JjL1BoeXNpa2FfR2VvbWV0cnlcQm91bmRpbmdfVm9sdW1lXGJvdW5kaW5nX3ZvbHVtZV9rZG9w
+MTguaHEUVUZQaHlzaWthX1NyYy9QaHlzaWthX0dlb21ldHJ5XEJvdW5kaW5nX1ZvbHVtZVxib3Vu
+ZGluZ192b2x1bWVfb2N0YWdvbi5ocRVVN1BoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlcQm91
+bmRpbmdfVm9sdW1lXGJ2aF9iYXNlLmhxFlU8UGh5c2lrYV9TcmMvUGh5c2lrYV9HZW9tZXRyeVxC
+b3VuZGluZ19Wb2x1bWVcYnZoX25vZGVfYmFzZS5ocRdVOVBoeXNpa2FfU3JjL1BoeXNpa2FfR2Vv
+bWV0cnlcQm91bmRpbmdfVm9sdW1lXG9iamVjdF9idmguaHEYVT1QaHlzaWthX1NyYy9QaHlzaWth
+X0dlb21ldHJ5XEJvdW5kaW5nX1ZvbHVtZVxvYmplY3RfYnZoX2NjZC5ocRlVQlBoeXNpa2FfU3Jj
+L1BoeXNpa2FfR2VvbWV0cnlcQm91bmRpbmdfVm9sdW1lXG9iamVjdF9idmhfY2NkX25vZGUuaHEa
+VT5QaHlzaWthX1NyYy9QaHlzaWthX0dlb21ldHJ5XEJvdW5kaW5nX1ZvbHVtZVxvYmplY3RfYnZo
+X25vZGUuaHEbVThQaHlzaWthX1NyYy9QaHlzaWthX0dlb21ldHJ5XEJvdW5kaW5nX1ZvbHVtZVxz
+Y2VuZV9idmguaHEcVT1QaHlzaWthX1NyYy9QaHlzaWthX0dlb21ldHJ5XEJvdW5kaW5nX1ZvbHVt
+ZVxzY2VuZV9idmhfbm9kZS5ocR1VM1BoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlcQ2FydGVz
+aWFuX0dyaWRzXGdyaWQuaHEeVTxQaHlzaWthX1NyYy9QaHlzaWthX0dlb21ldHJ5XENhcnRlc2lh
+bl9Hcmlkc1xncmlkX2l0ZXJhdG9yLmhxH1VIUGh5c2lrYV9TcmMvUGh5c2lrYV9HZW9tZXRyeVxJ
+bXBsaWNpdF9PYmplY3RzXGFuYWx5dGljX2ltcGxpY2l0X29iamVjdC5ocSBVP1BoeXNpa2FfU3Jj
+L1BoeXNpa2FfR2VvbWV0cnlcSW1wbGljaXRfT2JqZWN0c1xpbXBsaWNpdF9vYmplY3QuaHEhVUhQ
+aHlzaWthX1NyYy9QaHlzaWthX0dlb21ldHJ5XEltcGxpY2l0X09iamVjdHNcbGV2ZWxzZXRfaW1w
+bGljaXRfb2JqZWN0LmhxIlUzUGh5c2lrYV9TcmMvUGh5c2lrYV9HZW9tZXRyeVxMZXZlbF9TZXRz
+XGxldmVsX3NldC5ocSNVO1BoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlcVm9sdW1ldHJpY19N
+ZXNoZXNcY3ViaWNfbWVzaC5ocSRVOlBoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlcVm9sdW1l
+dHJpY19NZXNoZXNccXVhZF9tZXNoLmhxJVU5UGh5c2lrYV9TcmMvUGh5c2lrYV9HZW9tZXRyeVxW
+b2x1bWV0cmljX01lc2hlc1x0ZXRfbWVzaC5ocSZVOVBoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0
+cnlcVm9sdW1ldHJpY19NZXNoZXNcdHJpX21lc2guaHEnVUBQaHlzaWthX1NyYy9QaHlzaWthX0dl
+b21ldHJ5XFZvbHVtZXRyaWNfTWVzaGVzXHZvbHVtZXRyaWNfbWVzaC5ocShVSVBoeXNpa2FfU3Jj
+L1BoeXNpa2FfR2VvbWV0cnlcVm9sdW1ldHJpY19NZXNoZXNcdm9sdW1ldHJpY19tZXNoX2ludGVy
+bmFsLmhxKWVVDFNvdXJjZSBGaWxlc3EqXXErKFUzUGh5c2lrYV9TcmMvUGh5c2lrYV9HZW9tZXRy
+eVxCYXNpY19HZW9tZXRyeVxib3guY3BwcSxVNVBoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlc
+QmFzaWNfR2VvbWV0cnlccGxhbmUuY3BwcS1VNlBoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlc
+QmFzaWNfR2VvbWV0cnlcc3BoZXJlLmNwcHEuVTVQaHlzaWthX1NyYy9QaHlzaWthX0dlb21ldHJ5
+XEJvdW5kYXJ5X01lc2hlc1xlZGdlLmNwcHEvVTtQaHlzaWthX1NyYy9QaHlzaWthX0dlb21ldHJ5
+XEJvdW5kYXJ5X01lc2hlc1xlZGdlX2dyb3VwLmNwcHEwVTVQaHlzaWthX1NyYy9QaHlzaWthX0dl
+b21ldHJ5XEJvdW5kYXJ5X01lc2hlc1xmYWNlLmNwcHExVTtQaHlzaWthX1NyYy9QaHlzaWthX0dl
+b21ldHJ5XEJvdW5kYXJ5X01lc2hlc1xmYWNlX2dyb3VwLmNwcHEyVTlQaHlzaWthX1NyYy9QaHlz
+aWthX0dlb21ldHJ5XEJvdW5kYXJ5X01lc2hlc1xtYXRlcmlhbC5jcHBxM1U4UGh5c2lrYV9TcmMv
+UGh5c2lrYV9HZW9tZXRyeVxCb3VuZGFyeV9NZXNoZXNccG9seWdvbi5jcHBxNFU9UGh5c2lrYV9T
+cmMvUGh5c2lrYV9HZW9tZXRyeVxCb3VuZGFyeV9NZXNoZXNcc3VyZmFjZV9tZXNoLmNwcHE1VTdQ
+aHlzaWthX1NyYy9QaHlzaWthX0dlb21ldHJ5XEJvdW5kYXJ5X01lc2hlc1x2ZXJ0ZXguY3BwcTZV
+QFBoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlcQm91bmRpbmdfVm9sdW1lXGJvdW5kaW5nX3Zv
+bHVtZS5jcHBxN1VPUGh5c2lrYV9TcmMvUGh5c2lrYV9HZW9tZXRyeVxCb3VuZGluZ19Wb2x1bWVc
+Ym91bmRpbmdfdm9sdW1lX2F4aXNBbGlnbmVkQm94LmNwcHE4VUdQaHlzaWthX1NyYy9QaHlzaWth
+X0dlb21ldHJ5XEJvdW5kaW5nX1ZvbHVtZVxib3VuZGluZ192b2x1bWVfa2RvcDE4LmNwcHE5VUhQ
+aHlzaWthX1NyYy9QaHlzaWthX0dlb21ldHJ5XEJvdW5kaW5nX1ZvbHVtZVxib3VuZGluZ192b2x1
+bWVfb2N0YWdvbi5jcHBxOlU5UGh5c2lrYV9TcmMvUGh5c2lrYV9HZW9tZXRyeVxCb3VuZGluZ19W
+b2x1bWVcYnZoX2Jhc2UuY3BwcTtVPlBoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlcQm91bmRp
+bmdfVm9sdW1lXGJ2aF9ub2RlX2Jhc2UuY3BwcTxVO1BoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0
+cnlcQm91bmRpbmdfVm9sdW1lXG9iamVjdF9idmguY3BwcT1VP1BoeXNpa2FfU3JjL1BoeXNpa2Ff
+R2VvbWV0cnlcQm91bmRpbmdfVm9sdW1lXG9iamVjdF9idmhfY2NkLmNwcHE+VURQaHlzaWthX1Ny
+Yy9QaHlzaWthX0dlb21ldHJ5XEJvdW5kaW5nX1ZvbHVtZVxvYmplY3RfYnZoX2NjZF9ub2RlLmNw
+cHE/VUBQaHlzaWthX1NyYy9QaHlzaWthX0dlb21ldHJ5XEJvdW5kaW5nX1ZvbHVtZVxvYmplY3Rf
+YnZoX25vZGUuY3BwcUBVOlBoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlcQm91bmRpbmdfVm9s
+dW1lXHNjZW5lX2J2aC5jcHBxQVU/UGh5c2lrYV9TcmMvUGh5c2lrYV9HZW9tZXRyeVxCb3VuZGlu
+Z19Wb2x1bWVcc2NlbmVfYnZoX25vZGUuY3BwcUJVNVBoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0
+cnlcQ2FydGVzaWFuX0dyaWRzXGdyaWQuY3BwcUNVPlBoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0
+cnlcQ2FydGVzaWFuX0dyaWRzXGdyaWRfaXRlcmF0b3IuY3BwcURVPVBoeXNpa2FfU3JjL1BoeXNp
+a2FfR2VvbWV0cnlcVm9sdW1ldHJpY19NZXNoZXNcY3ViaWNfbWVzaC5jcHBxRVU8UGh5c2lrYV9T
+cmMvUGh5c2lrYV9HZW9tZXRyeVxWb2x1bWV0cmljX01lc2hlc1xxdWFkX21lc2guY3BwcUZVO1Bo
+eXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlcVm9sdW1ldHJpY19NZXNoZXNcdGV0X21lc2guY3Bw
+cUdVO1BoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlcVm9sdW1ldHJpY19NZXNoZXNcdHJpX21l
+c2guY3BwcUhVQlBoeXNpa2FfU3JjL1BoeXNpa2FfR2VvbWV0cnlcVm9sdW1ldHJpY19NZXNoZXNc
+dm9sdW1ldHJpY19tZXNoLmNwcHFJVUtQaHlzaWthX1NyYy9QaHlzaWthX0dlb21ldHJ5XFZvbHVt
+ZXRyaWNfTWVzaGVzXHZvbHVtZXRyaWNfbWVzaF9pbnRlcm5hbC5jcHBxSmVVDlJlc291cmNlIEZp
+bGVzcUtddS4=
+-->

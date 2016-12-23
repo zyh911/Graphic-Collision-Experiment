@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug|Win32">
+			<Configuration>Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{05FB5AF8-4B6E-17BD-8CC7-B60D054C85D5}</ProjectGuid>
+		<RootNamespace>PhysikaTestDebug</RootNamespace>
+		<Keyword>MakeFileProj</Keyword>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<UseOfMfc>false</UseOfMfc>
+		<PlatformToolset>v100</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings">
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Label="UserMacros" />
+	<PropertyGroup>
+	<_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+		<NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">echo Starting SCons &amp;&amp; &quot;E:\python2.7\Scripts\..\python.exe&quot; -c &quot;from os.path import join; import sys; sys.path = [ join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons&apos;), join(sys.prefix, &apos;scons&apos;) ] + sys.path; import SCons.Script; SCons.Script.main()&quot; -C &quot;E:\Physika-solid\20160129reinstall\Projects\TESTS&quot; -f SConstruct &quot;E:\Physika-solid\20160129reinstall\Projects\TESTS\PhysikaTestDebug.exe&quot;</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">echo Starting SCons &amp;&amp; &quot;E:\python2.7\Scripts\..\python.exe&quot; -c &quot;from os.path import join; import sys; sys.path = [ join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons&apos;), join(sys.prefix, &apos;scons&apos;) ] + sys.path; import SCons.Script; SCons.Script.main()&quot; -C &quot;E:\Physika-solid\20160129reinstall\Projects\TESTS&quot; -f SConstruct &quot;E:\Physika-solid\20160129reinstall\Projects\TESTS\PhysikaTestDebug.exe&quot;</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">echo Starting SCons &amp;&amp; &quot;E:\python2.7\Scripts\..\python.exe&quot; -c &quot;from os.path import join; import sys; sys.path = [ join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons&apos;), join(sys.prefix, &apos;scons&apos;) ] + sys.path; import SCons.Script; SCons.Script.main()&quot; -C &quot;E:\Physika-solid\20160129reinstall\Projects\TESTS&quot; -f SConstruct -c &quot;E:\Physika-solid\20160129reinstall\Projects\TESTS\PhysikaTestDebug.exe&quot;</NMakeCleanCommandLine>
+		<NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Physika-solid\20160129reinstall\Projects\TESTS\PhysikaTestDebug.exe</NMakeOutput>
+		<NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../Public_Library/include/;../../Public_Library/include/Physika_Dependency/OpenGL/</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemGroup>
+		<ClCompile Include="test.cpp" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="SConstruct" />
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>
+<!-- SCons Data:
+fXEBVQVEZWJ1Z3ECY2NvcHlfcmVnCl9yZWNvbnN0cnVjdG9yCnEDKGNTQ29ucy5Ub29sLm1zdnMK
+Q29uZmlnCnEEY19fYnVpbHRpbl9fCm9iamVjdApxBU50UnEGfXEHKFUHdmFyaWFudHEIaAJVB2Nt
+ZGFyZ3NxCVUAVQhwbGF0Zm9ybXEKVQVXaW4zMnELVQdydW5maWxlcQxVRkU6XFBoeXNpa2Etc29s
+aWRcMjAxNjAxMjlyZWluc3RhbGxcUHJvamVjdHNcVEVTVFNcUGh5c2lrYVRlc3REZWJ1Zy5leGVx
+DVULYnVpbGR0YXJnZXRxDmgNVQZvdXRkaXJxD1UAdWJzLg==
+
+fXEBKFULT3RoZXIgRmlsZXNxAl1VDUxvY2FsIEhlYWRlcnNxA11VDEhlYWRlciBGaWxlc3EEXVUM
+U291cmNlIEZpbGVzcQVdcQZVCHRlc3QuY3BwcQdhVQ5SZXNvdXJjZSBGaWxlc3EIXXUu
+-->

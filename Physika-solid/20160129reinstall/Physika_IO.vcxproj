@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Release|Win32">
+			<Configuration>Release</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{CF633979-495C-2608-902C-C63029223DE3}</ProjectGuid>
+		<RootNamespace>Physika_IO</RootNamespace>
+		<Keyword>MakeFileProj</Keyword>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<UseOfMfc>false</UseOfMfc>
+		<PlatformToolset>v100</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings">
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Label="UserMacros" />
+	<PropertyGroup>
+	<_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+		<NMakeBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">echo Starting SCons &amp;&amp; &quot;E:\python2.7\Scripts\..\python.exe&quot; -c &quot;from os.path import join; import sys; sys.path = [ join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons&apos;), join(sys.prefix, &apos;scons&apos;) ] + sys.path; import SCons.Script; SCons.Script.main()&quot; -C &quot;E:\Physika-solid\20160129reinstall&quot; -f SConstruct &quot;E:\Physika-solid\20160129reinstall\Public_Library\lib\Physika_IO.lib&quot;</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">echo Starting SCons &amp;&amp; &quot;E:\python2.7\Scripts\..\python.exe&quot; -c &quot;from os.path import join; import sys; sys.path = [ join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons&apos;), join(sys.prefix, &apos;scons&apos;) ] + sys.path; import SCons.Script; SCons.Script.main()&quot; -C &quot;E:\Physika-solid\20160129reinstall&quot; -f SConstruct &quot;E:\Physika-solid\20160129reinstall\Public_Library\lib\Physika_IO.lib&quot;</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">echo Starting SCons &amp;&amp; &quot;E:\python2.7\Scripts\..\python.exe&quot; -c &quot;from os.path import join; import sys; sys.path = [ join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;scons-2.4.1&apos;), join(sys.prefix, &apos;Lib&apos;, &apos;site-packages&apos;, &apos;scons&apos;), join(sys.prefix, &apos;scons&apos;) ] + sys.path; import SCons.Script; SCons.Script.main()&quot; -C &quot;E:\Physika-solid\20160129reinstall&quot; -f SConstruct -c &quot;E:\Physika-solid\20160129reinstall\Public_Library\lib\Physika_IO.lib&quot;</NMakeCleanCommandLine>
+		<NMakeOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Physika-solid\20160129reinstall\Public_Library\lib\Physika_IO.lib</NMakeOutput>
+		<NMakePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Physika_Src/;Physika_Src/Physika_Dependency/OpenGL/;./</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemGroup>
+		<ClInclude Include="Physika_Src\Physika_IO\Image_IO\image_io.h" />
+		<ClInclude Include="Physika_Src\Physika_IO\Image_IO\png_io.h" />
+		<ClInclude Include="Physika_Src\Physika_IO\Image_IO\ppm_io.h" />
+		<ClInclude Include="Physika_Src\Physika_IO\Surface_Mesh_IO\obj_mesh_io.h" />
+		<ClInclude Include="Physika_Src\Physika_IO\Surface_Mesh_IO\pov_mesh_io.h" />
+		<ClInclude Include="Physika_Src\Physika_IO\Surface_Mesh_IO\stl_mesh_io.h" />
+		<ClInclude Include="Physika_Src\Physika_IO\Surface_Mesh_IO\surface_mesh_io.h" />
+		<ClInclude Include="Physika_Src\Physika_IO\Volumetric_Mesh_IO\volumetric_mesh_io.h" />
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="Physika_Src\Physika_IO\Image_IO\image_io.cpp" />
+		<ClCompile Include="Physika_Src\Physika_IO\Image_IO\png_io.cpp" />
+		<ClCompile Include="Physika_Src\Physika_IO\Image_IO\ppm_io.cpp" />
+		<ClCompile Include="Physika_Src\Physika_IO\Surface_Mesh_IO\obj_mesh_io.cpp" />
+		<ClCompile Include="Physika_Src\Physika_IO\Surface_Mesh_IO\pov_mesh_io.cpp" />
+		<ClCompile Include="Physika_Src\Physika_IO\Surface_Mesh_IO\stl_mesh_io.cpp" />
+		<ClCompile Include="Physika_Src\Physika_IO\Surface_Mesh_IO\surface_mesh_io.cpp" />
+		<ClCompile Include="Physika_Src\Physika_IO\Volumetric_Mesh_IO\volumetric_mesh_io.cpp" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="SConstruct" />
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>
+<!-- SCons Data:
+fXEBVQdSZWxlYXNlcQJjY29weV9yZWcKX3JlY29uc3RydWN0b3IKcQMoY1NDb25zLlRvb2wubXN2
+cwpDb25maWcKcQRjX19idWlsdGluX18Kb2JqZWN0CnEFTnRScQZ9cQcoVQd2YXJpYW50cQhoAlUH
+Y21kYXJnc3EJVQBVCHBsYXRmb3JtcQpVBVdpbjMycQtVB3J1bmZpbGVxDFVERTpcUGh5c2lrYS1z
+b2xpZFwyMDE2MDEyOXJlaW5zdGFsbFxQdWJsaWNfTGlicmFyeVxsaWJcUGh5c2lrYV9JTy5saWJx
+DVULYnVpbGR0YXJnZXRxDmgNVQZvdXRkaXJxD1UAdWJzLg==
+
+fXEBKFULT3RoZXIgRmlsZXNxAl1VDUxvY2FsIEhlYWRlcnNxA11VDEhlYWRlciBGaWxlc3EEXXEF
+KFUqUGh5c2lrYV9TcmMvUGh5c2lrYV9JT1xJbWFnZV9JT1xpbWFnZV9pby5ocQZVKFBoeXNpa2Ff
+U3JjL1BoeXNpa2FfSU9cSW1hZ2VfSU9ccG5nX2lvLmhxB1UoUGh5c2lrYV9TcmMvUGh5c2lrYV9J
+T1xJbWFnZV9JT1xwcG1faW8uaHEIVTRQaHlzaWthX1NyYy9QaHlzaWthX0lPXFN1cmZhY2VfTWVz
+aF9JT1xvYmpfbWVzaF9pby5ocQlVNFBoeXNpa2FfU3JjL1BoeXNpa2FfSU9cU3VyZmFjZV9NZXNo
+X0lPXHBvdl9tZXNoX2lvLmhxClU0UGh5c2lrYV9TcmMvUGh5c2lrYV9JT1xTdXJmYWNlX01lc2hf
+SU9cc3RsX21lc2hfaW8uaHELVThQaHlzaWthX1NyYy9QaHlzaWthX0lPXFN1cmZhY2VfTWVzaF9J
+T1xzdXJmYWNlX21lc2hfaW8uaHEMVT5QaHlzaWthX1NyYy9QaHlzaWthX0lPXFZvbHVtZXRyaWNf
+TWVzaF9JT1x2b2x1bWV0cmljX21lc2hfaW8uaHENZVUMU291cmNlIEZpbGVzcQ5dcQ8oVSxQaHlz
+aWthX1NyYy9QaHlzaWthX0lPXEltYWdlX0lPXGltYWdlX2lvLmNwcHEQVSpQaHlzaWthX1NyYy9Q
+aHlzaWthX0lPXEltYWdlX0lPXHBuZ19pby5jcHBxEVUqUGh5c2lrYV9TcmMvUGh5c2lrYV9JT1xJ
+bWFnZV9JT1xwcG1faW8uY3BwcRJVNlBoeXNpa2FfU3JjL1BoeXNpa2FfSU9cU3VyZmFjZV9NZXNo
+X0lPXG9ial9tZXNoX2lvLmNwcHETVTZQaHlzaWthX1NyYy9QaHlzaWthX0lPXFN1cmZhY2VfTWVz
+aF9JT1xwb3ZfbWVzaF9pby5jcHBxFFU2UGh5c2lrYV9TcmMvUGh5c2lrYV9JT1xTdXJmYWNlX01l
+c2hfSU9cc3RsX21lc2hfaW8uY3BwcRVVOlBoeXNpa2FfU3JjL1BoeXNpa2FfSU9cU3VyZmFjZV9N
+ZXNoX0lPXHN1cmZhY2VfbWVzaF9pby5jcHBxFlVAUGh5c2lrYV9TcmMvUGh5c2lrYV9JT1xWb2x1
+bWV0cmljX01lc2hfSU9cdm9sdW1ldHJpY19tZXNoX2lvLmNwcHEXZVUOUmVzb3VyY2UgRmlsZXNx
+GF11Lg==
+-->

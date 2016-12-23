@@ -1,0 +1,76 @@
+# scene test
+
+--driver--
+
+gravity=3.0
+dt=0.02
+detection=discrete
+
+--mesh--
+
+# 0:box, 1:box_high, 2:bowl_new, 3:ball_high, 4:bunny, 5:cylinder, 6:mountain_all
+path=Models/box.obj
+path=Models/box_high.obj
+path=Models/bowl_new.obj
+path=Models/ball_high.obj
+path=Models/bunny.obj
+path=Models/cylinder.obj
+path=Models/mountain_all.obj
+
+--model--
+
+# mountain
+meshindex=6
+fixed=true
+restitution=0.2
+friction=0.4
+
+# falling balls
+meshindex=1
+scale=(0.06, 0.06, 0.06)
+translation=(35.0, 25.0, -17.0)
+restitution=0.1
+friction=0.4
+meshindex=1
+scale=(0.06, 0.06, 0.06)
+translation=(35.0, 30.0, -18.0)
+restitution=0.1
+friction=0.4
+meshindex=1
+scale=(0.06, 0.06, 0.06)
+translation=(35.0, 35.0, -19.0)
+restitution=0.1
+friction=0.4
+meshindex=1
+scale=(0.06, 0.06, 0.06)
+translation=(35.0, 40.0, -20.0)
+restitution=0.1
+friction=0.4
+meshindex=1
+scale=(0.06, 0.06, 0.06)
+translation=(35.0, 45.0, -19.0)
+restitution=0.1
+friction=0.4
+meshindex=1
+scale=(0.06, 0.06, 0.06)
+translation=(35.0, 50.0, -18.0)
+restitution=0.1
+friction=0.4
+meshindex=1
+scale=(0.06, 0.06, 0.06)
+translation=(35.0, 55.0, -19.0)
+restitution=0.1
+friction=0.4
+meshindex=1
+scale=(0.06, 0.06, 0.06)
+translation=(35.0, 60.0, -19.0)
+restitution=0.1
+friction=0.4
+
+--view--
+
+position=(30.0, 30.0, 25.0)
+focus=(10.0, 0.0, 0.0)
+angle=90
+width=1024
+height=768

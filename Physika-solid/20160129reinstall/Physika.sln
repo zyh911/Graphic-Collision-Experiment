@@ -1,0 +1,55 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Physika_Core", "Physika_Core.vcxproj", "{FEE788FC-4131-4A32-4631-09262CDD5F80}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Physika_Dynamics", "Physika_Dynamics.vcxproj", "{BF7AEE60-8D8C-72B3-F294-8D1B09F21370}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Physika_Geometry", "Physika_Geometry.vcxproj", "{EC7A0237-12DE-BE4E-0D3F-69B360AEC6CE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Physika_GUI", "Physika_GUI.vcxproj", "{0454BB62-FF67-A60B-1B6B-D6E2AD734785}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Physika_IO", "Physika_IO.vcxproj", "{CF633979-495C-2608-902C-C63029223DE3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Physika_Render", "Physika_Render.vcxproj", "{154A16A9-1CEF-E5DF-3A19-EAC0F9803A4E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhysikaTestDebug", "Projects\TESTS\PhysikaTestDebug.vcxproj", "{05FB5AF8-4B6E-17BD-8CC7-B60D054C85D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEE788FC-4131-4A32-4631-09262CDD5F80}.Debug|Win32.ActiveCfg = Release|Win32
+		{FEE788FC-4131-4A32-4631-09262CDD5F80}.Debug|Win32.Build.0 = Release|Win32
+		{FEE788FC-4131-4A32-4631-09262CDD5F80}.Release|Win32.ActiveCfg = Release|Win32
+		{FEE788FC-4131-4A32-4631-09262CDD5F80}.Release|Win32.Build.0 = Release|Win32
+		{BF7AEE60-8D8C-72B3-F294-8D1B09F21370}.Debug|Win32.ActiveCfg = Release|Win32
+		{BF7AEE60-8D8C-72B3-F294-8D1B09F21370}.Debug|Win32.Build.0 = Release|Win32
+		{BF7AEE60-8D8C-72B3-F294-8D1B09F21370}.Release|Win32.ActiveCfg = Release|Win32
+		{BF7AEE60-8D8C-72B3-F294-8D1B09F21370}.Release|Win32.Build.0 = Release|Win32
+		{EC7A0237-12DE-BE4E-0D3F-69B360AEC6CE}.Debug|Win32.ActiveCfg = Release|Win32
+		{EC7A0237-12DE-BE4E-0D3F-69B360AEC6CE}.Debug|Win32.Build.0 = Release|Win32
+		{EC7A0237-12DE-BE4E-0D3F-69B360AEC6CE}.Release|Win32.ActiveCfg = Release|Win32
+		{EC7A0237-12DE-BE4E-0D3F-69B360AEC6CE}.Release|Win32.Build.0 = Release|Win32
+		{0454BB62-FF67-A60B-1B6B-D6E2AD734785}.Debug|Win32.ActiveCfg = Release|Win32
+		{0454BB62-FF67-A60B-1B6B-D6E2AD734785}.Debug|Win32.Build.0 = Release|Win32
+		{0454BB62-FF67-A60B-1B6B-D6E2AD734785}.Release|Win32.ActiveCfg = Release|Win32
+		{0454BB62-FF67-A60B-1B6B-D6E2AD734785}.Release|Win32.Build.0 = Release|Win32
+		{CF633979-495C-2608-902C-C63029223DE3}.Debug|Win32.ActiveCfg = Release|Win32
+		{CF633979-495C-2608-902C-C63029223DE3}.Debug|Win32.Build.0 = Release|Win32
+		{CF633979-495C-2608-902C-C63029223DE3}.Release|Win32.ActiveCfg = Release|Win32
+		{CF633979-495C-2608-902C-C63029223DE3}.Release|Win32.Build.0 = Release|Win32
+		{154A16A9-1CEF-E5DF-3A19-EAC0F9803A4E}.Debug|Win32.ActiveCfg = Release|Win32
+		{154A16A9-1CEF-E5DF-3A19-EAC0F9803A4E}.Debug|Win32.Build.0 = Release|Win32
+		{154A16A9-1CEF-E5DF-3A19-EAC0F9803A4E}.Release|Win32.ActiveCfg = Release|Win32
+		{154A16A9-1CEF-E5DF-3A19-EAC0F9803A4E}.Release|Win32.Build.0 = Release|Win32
+		{05FB5AF8-4B6E-17BD-8CC7-B60D054C85D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{05FB5AF8-4B6E-17BD-8CC7-B60D054C85D5}.Debug|Win32.Build.0 = Debug|Win32
+		{05FB5AF8-4B6E-17BD-8CC7-B60D054C85D5}.Release|Win32.ActiveCfg = Debug|Win32
+		{05FB5AF8-4B6E-17BD-8CC7-B60D054C85D5}.Release|Win32.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

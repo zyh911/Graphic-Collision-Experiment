@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="Header Files">
+			<UniqueIdentifier>{7b42d31d-d53c-4868-8b92-ca2bc9fc052f}</UniqueIdentifier>
+			<Extensions>h;hpp;hxx;hm;inl</Extensions>
+		</Filter>
+		<Filter Include="Header Files\Basic_Geometry">
+			<UniqueIdentifier>{CD322543-DEFD-3AC4-45E3-870429AF669B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Boundary_Meshes">
+			<UniqueIdentifier>{7AC3E9F0-D210-B9EE-17CC-DF37198F6513}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Bounding_Volume">
+			<UniqueIdentifier>{4D19EA85-4438-EFE6-D980-6BE8C4D18011}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Cartesian_Grids">
+			<UniqueIdentifier>{D9C67243-44B3-6858-C52F-A79EF3B150F2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Implicit_Objects">
+			<UniqueIdentifier>{04BCA226-EB20-A9A3-5B2A-DDF77AC478EA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Level_Sets">
+			<UniqueIdentifier>{7BE92650-DC1D-8281-8DD5-3C70F33D62A6}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Header Files\Volumetric_Meshes">
+			<UniqueIdentifier>{AA09CBA7-EEB7-67E4-BA91-EA289413FC6E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files">
+			<UniqueIdentifier>{7b42d31d-d53c-4868-8b92-ca2bc9fc052f}</UniqueIdentifier>
+			<Extensions>cpp;c;cxx;l;y;def;odl;idl;hpj;bat</Extensions>
+		</Filter>
+		<Filter Include="Source Files\Basic_Geometry">
+			<UniqueIdentifier>{5BD85674-70B4-F500-9DEB-4128A3BEC938}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Boundary_Meshes">
+			<UniqueIdentifier>{2795FD57-E38F-6AEF-2A6D-ABDF1851970E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Bounding_Volume">
+			<UniqueIdentifier>{CB8C32EE-9256-24A7-8EAB-86522726A1CF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Cartesian_Grids">
+			<UniqueIdentifier>{2B91F909-943D-A525-E16A-613FD99B9101}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source Files\Volumetric_Meshes">
+			<UniqueIdentifier>{67763FFE-34EA-5403-9C07-6120454CCBE0}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Basic_Geometry\basic_geometry.h">
+			<Filter>Header Files\Basic_Geometry</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Basic_Geometry\box.h">
+			<Filter>Header Files\Basic_Geometry</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Basic_Geometry\plane.h">
+			<Filter>Header Files\Basic_Geometry</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Basic_Geometry\sphere.h">
+			<Filter>Header Files\Basic_Geometry</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Boundary_Meshes\edge.h">
+			<Filter>Header Files\Boundary_Meshes</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Boundary_Meshes\edge_group.h">
+			<Filter>Header Files\Boundary_Meshes</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Boundary_Meshes\face.h">
+			<Filter>Header Files\Boundary_Meshes</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Boundary_Meshes\face_group.h">
+			<Filter>Header Files\Boundary_Meshes</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Boundary_Meshes\material.h">
+			<Filter>Header Files\Boundary_Meshes</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Boundary_Meshes\polygon.h">
+			<Filter>Header Files\Boundary_Meshes</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Boundary_Meshes\surface_mesh.h">
+			<Filter>Header Files\Boundary_Meshes</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Boundary_Meshes\vertex.h">
+			<Filter>Header Files\Boundary_Meshes</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\bounding_volume.h">
+			<Filter>Header Files\Bounding_Volume</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\bounding_volume_axisAlignedBox.h">
+			<Filter>Header Files\Bounding_Volume</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\bounding_volume_kdop18.h">
+			<Filter>Header Files\Bounding_Volume</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\bounding_volume_octagon.h">
+			<Filter>Header Files\Bounding_Volume</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\bvh_base.h">
+			<Filter>Header Files\Bounding_Volume</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\bvh_node_base.h">
+			<Filter>Header Files\Bounding_Volume</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\object_bvh.h">
+			<Filter>Header Files\Bounding_Volume</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\object_bvh_ccd.h">
+			<Filter>Header Files\Bounding_Volume</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\object_bvh_ccd_node.h">
+			<Filter>Header Files\Bounding_Volume</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\object_bvh_node.h">
+			<Filter>Header Files\Bounding_Volume</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\scene_bvh.h">
+			<Filter>Header Files\Bounding_Volume</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Bounding_Volume\scene_bvh_node.h">
+			<Filter>Header Files\Bounding_Volume</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Cartesian_Grids\grid.h">
+			<Filter>Header Files\Cartesian_Grids</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Cartesian_Grids\grid_iterator.h">
+			<Filter>Header Files\Cartesian_Grids</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Implicit_Objects\analytic_implicit_object.h">
+			<Filter>Header Files\Implicit_Objects</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Implicit_Objects\implicit_object.h">
+			<Filter>Header Files\Implicit_Objects</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Implicit_Objects\levelset_implicit_object.h">
+			<Filter>Header Files\Implicit_Objects</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Level_Sets\level_set.h">
+			<Filter>Header Files\Level_Sets</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\cubic_mesh.h">
+			<Filter>Header Files\Volumetric_Meshes</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\quad_mesh.h">
+			<Filter>Header Files\Volumetric_Meshes</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\tet_mesh.h">
+			<Filter>Header Files\Volumetric_Meshes</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\tri_mesh.h">
+			<Filter>Header Files\Volumetric_Meshes</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\volumetric_mesh.h">
+			<Filter>Header Files\Volumetric_Meshes</Filter>
+		</ClInclude>
+		<ClInclude Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\volumetric_mesh_internal.h">
+			<Filter>Header Files\Volumetric_Meshes</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Basic_Geometry\box.cpp">
+			<Filter>Source Files\Basic_Geometry</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Basic_Geometry\plane.cpp">
+			<Filter>Source Files\Basic_Geometry</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Basic_Geometry\sphere.cpp">
+			<Filter>Source Files\Basic_Geometry</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Boundary_Meshes\edge.cpp">
+			<Filter>Source Files\Boundary_Meshes</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Boundary_Meshes\edge_group.cpp">
+			<Filter>Source Files\Boundary_Meshes</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Boundary_Meshes\face.cpp">
+			<Filter>Source Files\Boundary_Meshes</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Boundary_Meshes\face_group.cpp">
+			<Filter>Source Files\Boundary_Meshes</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Boundary_Meshes\material.cpp">
+			<Filter>Source Files\Boundary_Meshes</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Boundary_Meshes\polygon.cpp">
+			<Filter>Source Files\Boundary_Meshes</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Boundary_Meshes\surface_mesh.cpp">
+			<Filter>Source Files\Boundary_Meshes</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Boundary_Meshes\vertex.cpp">
+			<Filter>Source Files\Boundary_Meshes</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\bounding_volume.cpp">
+			<Filter>Source Files\Bounding_Volume</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\bounding_volume_axisAlignedBox.cpp">
+			<Filter>Source Files\Bounding_Volume</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\bounding_volume_kdop18.cpp">
+			<Filter>Source Files\Bounding_Volume</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\bounding_volume_octagon.cpp">
+			<Filter>Source Files\Bounding_Volume</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\bvh_base.cpp">
+			<Filter>Source Files\Bounding_Volume</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\bvh_node_base.cpp">
+			<Filter>Source Files\Bounding_Volume</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\object_bvh.cpp">
+			<Filter>Source Files\Bounding_Volume</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\object_bvh_ccd.cpp">
+			<Filter>Source Files\Bounding_Volume</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\object_bvh_ccd_node.cpp">
+			<Filter>Source Files\Bounding_Volume</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\object_bvh_node.cpp">
+			<Filter>Source Files\Bounding_Volume</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\scene_bvh.cpp">
+			<Filter>Source Files\Bounding_Volume</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Bounding_Volume\scene_bvh_node.cpp">
+			<Filter>Source Files\Bounding_Volume</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Cartesian_Grids\grid.cpp">
+			<Filter>Source Files\Cartesian_Grids</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Cartesian_Grids\grid_iterator.cpp">
+			<Filter>Source Files\Cartesian_Grids</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\cubic_mesh.cpp">
+			<Filter>Source Files\Volumetric_Meshes</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\quad_mesh.cpp">
+			<Filter>Source Files\Volumetric_Meshes</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\tet_mesh.cpp">
+			<Filter>Source Files\Volumetric_Meshes</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\tri_mesh.cpp">
+			<Filter>Source Files\Volumetric_Meshes</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\volumetric_mesh.cpp">
+			<Filter>Source Files\Volumetric_Meshes</Filter>
+		</ClCompile>
+		<ClCompile Include="Physika_Src\Physika_Geometry\Volumetric_Meshes\volumetric_mesh_internal.cpp">
+			<Filter>Source Files\Volumetric_Meshes</Filter>
+		</ClCompile>
+	</ItemGroup>
+</Project>

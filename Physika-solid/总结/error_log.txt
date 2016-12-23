@@ -1,0 +1,14 @@
+1、取余数导致编译失败。
+	Physika_Dynamics->Rigid_Body->rigid_driver_plugin_render.cpp，第261行，求余数前应先判断active_render_->screen_save_interval_是否为0。将261行改为：
+	if(active_render_->screen_save_interval_ != 0 && active_render_->rigid_driver_->step() % active_render_->screen_save_interval_ == 0)
+
+2、数据出现QNAN的错误。
+	Physika_Core->Vectors->Vector_Nd.cpp，第33行，构造函数中需要给向量每一维赋初始值0。在第33行后添加：
+	for(unsigned int i = 0; i < dim; ++i)
+
+		(*this)[i] = (Scalar)(0.0);
+
+3、摩擦力反向的错误。
+	Physika_Dynamics->Rigid_Body->rigid_body_driver_utility.cpp，第263行，计算angular_normal_rhs应该使用-sample_normal。将第263行改为：
+	angular_normal_rhs = (contact_point->globalContactPosition() - rigid_body->globalTranslation()).cross(-sample_normal);
+
